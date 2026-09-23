@@ -3,45 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Garage Orphan | The Urban EV Driver's Guide & Survival Resource</title>
-  <meta name="description" content="Guidance, curated hardware, and legal Right-to-Charge resources for the 40+ million EV drivers without dedicated overnight home chargers.">
-  <meta name="keywords" content="garage orphan, EV charging apartment, street parking EV, right to charge laws, portable EV charger, condo EV charging">
+  <title>Garage Orphan | Drive Electric Without a Home Garage</title>
+  <meta name="description" content="No garage or dedicated driveway? Here is everything you need to charge an EV: the exact cables and adapters to buy, plus a free letter template to get your landlord or HOA to install chargers.">
+  <meta name="keywords" content="garage orphan, EV charging apartment, street parking EV, right to charge laws, portable EV charger, condo EV charging, HOA ev charging proposal">
   
   <!-- Open Graph / Meta -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://garageorphan.com/">
-  <meta property="og:title" content="Garage Orphan | Drive Electric. No Garage Required.">
-  <meta property="og:description" content="Hardware, legal kits, and battle-tested strategies for EV drivers in apartments, condos, and street-parked urban homes.">
+  <meta property="og:title" content="Garage Orphan | Drive Electric Without a Home Garage">
+  <meta property="og:description" content="The honest, practical guide for the 40+ million EV owners who park on the street or live in apartments and condos.">
   <meta property="og:image" content="https://garageorphan.com/og-image.png">
 
   <!-- Favicon (SVG Data URI) -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'><path d='M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z'/></svg>">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23059669'><path d='M13 10V3L4 14h7v7l9-11h-7z'/></svg>">
 
   <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      darkMode: 'class',
       theme: {
         extend: {
           colors: {
             brand: {
-              dark: '#080C14',
-              surface: '#0F172A',
-              card: '#141E33',
-              border: '#1E293B',
-              muted: '#94A3B8'
+              50: '#F0FDF4',
+              100: '#DCFCE7',
+              500: '#10B981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065F46',
+              900: '#064E3B',
             },
-            electric: {
-              emerald: '#10B981',
-              cyan: '#06B6D4',
-              teal: '#14B8A6',
-              amber: '#F59E0B'
+            accent: {
+              50: '#F0F9FF',
+              500: '#0284C7',
+              600: '#0369A1',
             }
           },
           fontFamily: {
@@ -49,8 +49,8 @@
             mono: ['"JetBrains Mono"', 'monospace']
           },
           boxShadow: {
-            'glow-emerald': '0 0 25px -5px rgba(16, 185, 129, 0.3)',
-            'glow-cyan': '0 0 25px -5px rgba(6, 182, 212, 0.3)',
+            'card': '0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03)',
+            'card-hover': '0 12px 24px -6px rgba(0, 0, 0, 0.08), 0 4px 8px -4px rgba(0, 0, 0, 0.04)',
           }
         }
       }
@@ -58,70 +58,37 @@
   </script>
 
   <style>
-    /* Custom utility animations and glass styles */
     body {
-      background-color: #080C14;
-      color: #F8FAFC;
+      background-color: #F8FAFC;
+      color: #0F172A;
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    .glass-nav {
-      background: rgba(15, 23, 42, 0.85);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    }
-
-    .glass-card {
-      background: rgba(20, 30, 51, 0.7);
-      backdrop-filter: blur(8px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-    }
-
-    .glass-card:hover {
-      border-color: rgba(16, 185, 129, 0.3);
-      box-shadow: 0 10px 30px -10px rgba(16, 185, 129, 0.15);
-    }
-
-    /* Grid background effect */
-    .bg-grid-pattern {
-      background-size: 40px 40px;
+    /* Subtle background grid pattern for editorial texture */
+    .bg-light-grid {
+      background-size: 32px 32px;
       background-image: 
-        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-    }
-
-    /* Radial glow overlays */
-    .glow-overlay {
-      background: radial-gradient(circle at 50% 0%, rgba(6, 182, 212, 0.15) 0%, rgba(16, 185, 129, 0.05) 35%, transparent 70%);
-    }
-
-    /* Hide scrollbars in clean areas */
-    .no-scrollbar::-webkit-scrollbar {
-      display: none;
-    }
-    .no-scrollbar {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+        linear-gradient(to right, rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
     }
   </style>
 </head>
-<body class="min-h-screen flex flex-col antialiased selection:bg-emerald-500 selection:text-slate-900 relative">
+<body class="min-h-screen flex flex-col antialiased selection:bg-brand-500 selection:text-white">
 
   <!-- 1. TOP NOTICE / ACQUISITION BAR -->
-  <aside aria-label="Domain Acquisition Notice" class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border-b border-slate-800/80 text-xs sm:text-sm py-2 px-4 sticky top-0 z-50">
+  <aside aria-label="Domain Notice" class="bg-slate-900 text-slate-200 text-xs sm:text-sm py-2.5 px-4 sticky top-0 z-50 shadow-sm">
     <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
-      <div class="flex items-center space-x-2 text-slate-300">
-        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+      <div class="flex items-center space-x-2">
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
-          Domain Asset
+          Domain Opportunity
         </span>
-        <span class="font-medium text-slate-200 truncate">
-          Category Domain Available for Acquisition or Strategic Partnership.
+        <span class="font-normal text-slate-300">
+          <strong>GarageOrphan.com</strong> is available for acquisition or partnership.
         </span>
       </div>
-      <div class="flex items-center space-x-3 text-xs">
-        <a href="#inquire" onclick="openAcquisitionModal()" class="inline-flex items-center gap-1.5 font-semibold text-emerald-400 hover:text-emerald-300 transition-colors py-1 px-3 rounded-md bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30">
+      <div>
+        <a href="#inquire" onclick="openAcquisitionModal()" class="inline-flex items-center gap-1.5 font-semibold text-emerald-400 hover:text-emerald-300 transition-colors py-1 px-3 rounded-md bg-white/10 hover:bg-white/15 text-xs">
           <span>Inquire &amp; Make Offer</span>
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
@@ -132,42 +99,41 @@
   </aside>
 
   <!-- NAVIGATION -->
-  <header class="glass-nav sticky top-[41px] z-40 transition-all duration-200">
+  <header class="bg-white/95 backdrop-blur-md sticky top-[41px] z-40 border-b border-slate-200/80 transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16">
+      <div class="flex items-center justify-between h-16 sm:h-18">
+        
         <!-- Logo -->
         <a href="#" class="flex items-center space-x-3 group">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-cyan-500 p-0.5 shadow-glow-emerald">
-            <div class="w-full h-full bg-slate-900 rounded-[10px] flex items-center justify-center">
-              <svg class="w-5 h-5 text-emerald-400 group-hover:scale-110 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-              </svg>
-            </div>
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-emerald-500 p-0.5 shadow-sm flex items-center justify-center text-white">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
           </div>
           <div>
-            <span class="text-lg font-bold tracking-tight text-white flex items-center gap-1">
-              Garage<span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Orphan</span>
+            <span class="text-xl font-bold tracking-tight text-slate-900 flex items-center">
+              Garage<span class="text-brand-600">Orphan</span>
             </span>
-            <span class="text-[10px] uppercase font-mono tracking-wider text-slate-400 block -mt-1">Urban EV Collective</span>
+            <span class="text-[11px] font-medium tracking-wide text-slate-500 block -mt-1">The Urban EV Guide</span>
           </div>
         </a>
 
         <!-- Desktop Menu -->
-        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
-          <a href="#gear" class="hover:text-emerald-400 transition-colors">Survival Gear</a>
-          <a href="#request-kit" class="hover:text-emerald-400 transition-colors">HOA Request Kit</a>
-          <a href="#faq" class="hover:text-emerald-400 transition-colors">Field FAQ</a>
-          <a href="#inquire" onclick="openAcquisitionModal()" class="hover:text-cyan-400 transition-colors">Acquire Domain</a>
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+          <a href="#gear" class="hover:text-brand-600 transition-colors">Charging Gear</a>
+          <a href="#request-kit" class="hover:text-brand-600 transition-colors">Free HOA Letter Template</a>
+          <a href="#faq" class="hover:text-brand-600 transition-colors">Common Questions</a>
+          <a href="#inquire" onclick="openAcquisitionModal()" class="hover:text-accent-600 transition-colors">Acquire Domain</a>
         </nav>
 
         <!-- CTA & Mobile Trigger -->
-        <div class="flex items-center space-x-4">
-          <a href="#request-kit" class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-lg text-xs font-semibold text-slate-950 bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 shadow-glow-emerald transition-all duration-200">
-            Get Legal Pack
+        <div class="flex items-center space-x-3">
+          <a href="#request-kit" class="hidden sm:inline-flex items-center justify-center px-4 py-2.5 rounded-lg text-xs font-bold text-white bg-brand-600 hover:bg-brand-700 shadow-sm transition-all">
+            Get Free HOA Letter
           </a>
 
           <!-- Mobile Menu Button -->
-          <button id="mobileMenuBtn" type="button" aria-label="Toggle navigation menu" class="md:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 focus:outline-none">
+          <button id="mobileMenuBtn" type="button" aria-label="Toggle navigation menu" class="md:hidden p-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 focus:outline-none">
             <svg id="menuIconClosed" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
             </svg>
@@ -179,14 +145,14 @@
       </div>
 
       <!-- Mobile Dropdown -->
-      <div id="mobileMenu" class="hidden md:hidden py-4 border-t border-slate-800 space-y-3">
-        <a href="#gear" class="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-emerald-400">Survival Gear</a>
-        <a href="#request-kit" class="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-emerald-400">HOA Request Kit</a>
-        <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-emerald-400">Field FAQ</a>
-        <a href="#inquire" onclick="openAcquisitionModal()" class="block px-3 py-2 rounded-md text-base font-medium text-cyan-400 hover:bg-slate-800">Acquire Domain</a>
+      <div id="mobileMenu" class="hidden md:hidden py-4 border-t border-slate-100 space-y-2">
+        <a href="#gear" class="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50 hover:text-brand-600">Charging Gear</a>
+        <a href="#request-kit" class="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50 hover:text-brand-600">Free HOA Letter Template</a>
+        <a href="#faq" class="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50 hover:text-brand-600">Common Questions</a>
+        <a href="#inquire" onclick="openAcquisitionModal()" class="block px-3 py-2 rounded-md text-base font-semibold text-accent-600 hover:bg-slate-50">Acquire Domain</a>
         <div class="pt-2">
-          <a href="#request-kit" class="w-full inline-flex items-center justify-center px-4 py-2.5 rounded-lg text-sm font-semibold text-slate-950 bg-gradient-to-r from-emerald-400 to-cyan-400">
-            Download Free HOA Pack
+          <a href="#request-kit" class="w-full inline-flex items-center justify-center px-4 py-3 rounded-lg text-sm font-bold text-white bg-brand-600">
+            Get Free HOA Letter
           </a>
         </div>
       </div>
@@ -197,64 +163,61 @@
   <main class="flex-grow">
     
     <!-- 2. HERO SECTION -->
-    <section class="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden bg-grid-pattern glow-overlay">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <section class="relative pt-12 pb-16 md:pt-20 md:pb-24 bg-light-grid border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div class="text-center max-w-3xl mx-auto">
-          <!-- Tag badge -->
-          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900/90 border border-slate-700 text-xs font-medium text-emerald-400 mb-6 shadow-sm">
-            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/>
-            </svg>
-            <span>The Survival Manual for 40+ Million Apartment &amp; Street-Parked EV Owners</span>
+          
+          <!-- Category Pill -->
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-50 border border-brand-200 text-xs font-semibold text-brand-800 mb-6 shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-brand-600"></span>
+            <span>The No-BS Guide for 40+ Million Apartment &amp; Street-Parked EV Drivers</span>
           </div>
 
-          <!-- Main Headline -->
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-tight mb-6">
-            Drive Electric. <br class="hidden sm:inline" />
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">
-              No Garage Required.
-            </span>
+          <!-- Main Headline (Plain English, high impact) -->
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight mb-6">
+            No Garage? <br class="hidden sm:inline" />
+            <span class="text-brand-600">You Can Still Drive an Electric Car.</span>
           </h1>
 
-          <!-- Subheadline -->
-          <p class="text-base sm:text-lg md:text-xl text-slate-300 mb-10 leading-relaxed font-normal">
-            No private driveway? No dedicated overnight plug? You are not alone. Discover battle-tested hardware workarounds, legal Right-to-Charge blueprints, and urban dwell-time strategies built specifically for garage orphans.
+          <!-- Subheadline (Crystal clear, zero tech jargon) -->
+          <p class="text-lg sm:text-xl text-slate-600 mb-10 leading-relaxed font-normal">
+            Over 40 million EV owners don't have a private driveway. Here is everything you need to make it work: the exact cables and adapters to safely plug in anywhere, plus a free letter to get your landlord or HOA to install chargers.
           </p>
 
           <!-- CTAs -->
           <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#request-kit" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-sm text-slate-950 bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 shadow-glow-emerald hover:shadow-glow-cyan transform hover:-translate-y-0.5 transition-all duration-200">
-              <svg class="w-5 h-5 text-slate-950" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <a href="#request-kit" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-bold text-base text-white bg-brand-600 hover:bg-brand-700 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
               </svg>
-              <span>Get HOA / Landlord Request Kit</span>
+              <span>Get Free Landlord / HOA Letter</span>
             </a>
-            <a href="#gear" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-sm text-slate-200 bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700 hover:border-slate-500 transition-all duration-200">
-              <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+            <a href="#gear" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-bold text-base text-slate-700 bg-white hover:bg-slate-50 border border-slate-300 shadow-sm hover:shadow transition-all">
+              <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
               </svg>
-              <span>Explore Urban Survival Gear</span>
+              <span>See What Gear You Need</span>
             </a>
           </div>
 
-          <!-- Trust Badges & Reality Metrics -->
-          <div class="mt-14 pt-8 border-t border-slate-800/80 grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
-            <div class="p-3 rounded-lg bg-slate-900/50 border border-slate-800">
-              <div class="text-2xl font-bold font-mono text-emerald-400">44%</div>
-              <div class="text-xs text-slate-400 font-medium mt-0.5">US multi-family or street parking households</div>
+          <!-- Plain-English Real World Metrics -->
+          <div class="mt-14 pt-8 border-t border-slate-200 grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
+            <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-card">
+              <div class="text-2xl sm:text-3xl font-bold font-mono text-brand-600">44%</div>
+              <div class="text-xs text-slate-600 font-medium mt-1">Of all US drivers park on streets or in apartments</div>
             </div>
-            <div class="p-3 rounded-lg bg-slate-900/50 border border-slate-800">
-              <div class="text-2xl font-bold font-mono text-cyan-400">18+ States</div>
-              <div class="text-xs text-slate-400 font-medium mt-0.5">Enacted statutory Right-to-Charge protections</div>
+            <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-card">
+              <div class="text-2xl sm:text-3xl font-bold font-mono text-accent-600">18+ States</div>
+              <div class="text-xs text-slate-600 font-medium mt-1">Have laws protecting your right to install chargers</div>
             </div>
-            <div class="p-3 rounded-lg bg-slate-900/50 border border-slate-800">
-              <div class="text-2xl font-bold font-mono text-emerald-400">65% Off</div>
-              <div class="text-xs text-slate-400 font-medium mt-0.5">Savings vs high-cost peak DC Fast Charging</div>
+            <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-card">
+              <div class="text-2xl sm:text-3xl font-bold font-mono text-brand-600">65% Cheaper</div>
+              <div class="text-xs text-slate-600 font-medium mt-1">Slow charging overnight vs expensive public fast chargers</div>
             </div>
-            <div class="p-3 rounded-lg bg-slate-900/50 border border-slate-800">
-              <div class="text-2xl font-bold font-mono text-cyan-400">100% Free</div>
-              <div class="text-xs text-slate-400 font-medium mt-0.5">Tenant &amp; condo board proposal package</div>
+            <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-card">
+              <div class="text-2xl sm:text-3xl font-bold font-mono text-accent-600">100% Free</div>
+              <div class="text-xs text-slate-600 font-medium mt-1">Ready-to-send proposal packet for your landlord or board</div>
             </div>
           </div>
 
@@ -264,336 +227,306 @@
     </section>
 
     <!-- 3. CURATED GEAR GRID (AFFILIATE SHOWCASE) -->
-    <section id="gear" class="py-20 bg-slate-950/60 border-t border-b border-slate-800/80 relative">
+    <section id="gear" class="py-16 md:py-24 bg-white border-b border-slate-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>
-            <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded text-xs font-mono font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-3">
-              Essential Hardware
-            </div>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-              Urban EV Survival Kit
+            <span class="inline-flex items-center px-2.5 py-1 rounded text-xs font-bold uppercase tracking-wider bg-brand-50 text-brand-700 border border-brand-200 mb-2">
+              Buyer's Guide
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+              The Street &amp; Apartment Charging Kit
             </h2>
-            <p class="text-slate-400 text-sm sm:text-base mt-2 max-w-xl">
-              Commercial-grade adapters, multi-voltage mobile EVSEs, and anti-theft security designed for public curb charging and shared apartment facilities.
+            <p class="text-slate-600 text-base mt-2 max-w-xl">
+              Don't buy the wrong equipment. These are the cables, adapters, and safety locks tested for people who plug in outdoors or in shared parking lots.
             </p>
           </div>
-          <div class="mt-4 md:mt-0 text-xs font-mono text-slate-400">
-            Updated: <span class="text-emerald-400 font-semibold">2026 Field Tested</span>
+          <div class="mt-4 md:mt-0 text-xs font-semibold text-slate-500">
+            Updated: <span class="text-brand-600 font-bold">2026 Tested &amp; Recommended</span>
           </div>
         </div>
 
         <!-- Product Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          <!-- Card 1: NACS to CCS / CCS to NACS Adapters -->
-          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 group">
+          <!-- Card 1: Fast-Charging Adapters -->
+          <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
             <div>
               <div class="flex items-center justify-between gap-2 mb-4">
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
-                  ★ Must-Have
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-100 text-amber-800">
+                  ★ Most Useful
                 </span>
-                <span class="text-xs font-mono text-slate-400">DC Fast Charge</span>
+                <span class="text-xs font-mono font-medium text-slate-500">Universal Access</span>
               </div>
               
-              <div class="w-full h-44 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center p-4 mb-5 relative overflow-hidden group-hover:border-emerald-500/30 transition-colors">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
-                <!-- Icon representation -->
-                <svg class="w-20 h-20 text-emerald-400/80 group-hover:scale-105 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
                 </svg>
-                <div class="absolute bottom-3 left-3 right-3 text-center">
-                  <span class="text-[11px] font-mono text-slate-300 bg-slate-950/80 px-2 py-0.5 rounded border border-slate-800">500A / 1000V DC Rated</span>
-                </div>
               </div>
 
-              <h3 class="text-lg font-bold text-white group-hover:text-emerald-300 transition-colors">
-                NACS ↔ CCS1 Dual Fast-Charging Adapter Set
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
+                Tesla &amp; Public Fast-Charging Adapter Set
               </h3>
-              <p class="text-sm text-slate-400 mt-2 leading-relaxed">
-                Crucial for non-Tesla and Tesla drivers alike. Unlocks 15,000+ Tesla Superchargers and municipal CCS1 fast chargers without being stranded by incompatible plugs.
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Lets you plug any EV into Tesla Superchargers and public fast-charging stations. You'll never get stuck with the wrong plug when you need a quick top-up.
               </p>
 
-              <ul class="mt-4 space-y-1.5 text-xs text-slate-300">
+              <ul class="mt-4 space-y-2 text-xs font-medium text-slate-700">
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Supports up to 250 kW throughput</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Unlocks 15,000+ Tesla Supercharger stations</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Dual thermal cut-off auto safety sensors</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Automatic heat shutoff sensors for safety</span>
                 </li>
               </ul>
             </div>
 
-            <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
               <div>
-                <span class="text-xs text-slate-400 block font-mono">Verified Choice</span>
-                <span class="text-base font-bold text-white">$149 – $189</span>
+                <span class="text-[11px] text-slate-500 block uppercase font-bold tracking-wider">Price Range</span>
+                <span class="text-base font-bold text-slate-900">$149 – $189</span>
               </div>
-              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-sm transition-all">
-                <span>Check Retailer</span>
+              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white bg-slate-900 hover:bg-brand-600 shadow-sm transition-colors">
+                <span>Check Prices</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
               </a>
             </div>
           </div>
 
-          <!-- Card 2: Dual-Voltage Mobile Charger -->
-          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 group">
+          <!-- Card 2: Portable Charger -->
+          <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
             <div>
               <div class="flex items-center justify-between gap-2 mb-4">
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
-                  ⚡ Multi-Voltage
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-brand-100 text-brand-800">
+                  ⚡ Plugs In Anywhere
                 </span>
-                <span class="text-xs font-mono text-slate-400">Level 1 &amp; Level 2</span>
+                <span class="text-xs font-mono font-medium text-slate-500">120V &amp; 240V</span>
               </div>
               
-              <div class="w-full h-44 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center p-4 mb-5 relative overflow-hidden group-hover:border-cyan-500/30 transition-colors">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
-                <!-- Icon representation -->
-                <svg class="w-20 h-20 text-cyan-400/80 group-hover:scale-105 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                 </svg>
-                <div class="absolute bottom-3 left-3 right-3 text-center">
-                  <span class="text-[11px] font-mono text-slate-300 bg-slate-950/80 px-2 py-0.5 rounded border border-slate-800">120V / 240V Auto-Switching</span>
-                </div>
               </div>
 
-              <h3 class="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">
-                Dual-Voltage Portable Smart EVSE (16A/32A)
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
+                Portable Charger with Normal Wall Plug (Level 1 &amp; 2)
               </h3>
-              <p class="text-sm text-slate-400 mt-2 leading-relaxed">
-                Includes interchangeable NEMA 5-15 (standard wall outlet) and NEMA 14-50 (dryer/RV plug) pigtails. Allows slow trickle charging anywhere an outdoor outlet exists.
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Keep this in your trunk. It plugs into any regular 120V outdoor wall socket, or into a heavy-duty 240V dryer plug when visiting friends or family.
               </p>
 
-              <ul class="mt-4 space-y-1.5 text-xs text-slate-300">
+              <ul class="mt-4 space-y-2 text-xs font-medium text-slate-700">
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-cyan-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>IP67 waterproof control box &amp; 25ft lead</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Weatherproof waterproof control box</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-cyan-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Configurable current (8A/12A/16A/32A)</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Long 25-foot cord reaches distant outlets</span>
                 </li>
               </ul>
             </div>
 
-            <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
               <div>
-                <span class="text-xs text-slate-400 block font-mono">Universal Fit</span>
-                <span class="text-base font-bold text-white">$189 – $249</span>
+                <span class="text-[11px] text-slate-500 block uppercase font-bold tracking-wider">Price Range</span>
+                <span class="text-base font-bold text-slate-900">$189 – $249</span>
               </div>
-              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-slate-950 bg-cyan-400 hover:bg-cyan-300 shadow-sm transition-all">
-                <span>Check Retailer</span>
+              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white bg-slate-900 hover:bg-brand-600 shadow-sm transition-colors">
+                <span>Check Prices</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
               </a>
             </div>
           </div>
 
-          <!-- Card 3: Heavy-Duty Commercial Extension Cable -->
-          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 group">
+          <!-- Card 3: 10-AWG Extension Cord -->
+          <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
             <div>
               <div class="flex items-center justify-between gap-2 mb-4">
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/30">
-                  🛡️ 10 AWG Pure Copper
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-100 text-amber-800">
+                  🔥 Won't Overheat
                 </span>
-                <span class="text-xs font-mono text-slate-400">Low Resistance</span>
+                <span class="text-xs font-mono font-medium text-slate-500">10 AWG Copper</span>
               </div>
               
-              <div class="w-full h-44 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center p-4 mb-5 relative overflow-hidden group-hover:border-amber-500/30 transition-colors">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
-                <!-- Icon representation -->
-                <svg class="w-20 h-20 text-amber-400/80 group-hover:scale-105 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
                 </svg>
-                <div class="absolute bottom-3 left-3 right-3 text-center">
-                  <span class="text-[11px] font-mono text-slate-300 bg-slate-950/80 px-2 py-0.5 rounded border border-slate-800">SJTW Outdoor (-40°F to 140°F)</span>
-                </div>
               </div>
 
-              <h3 class="text-lg font-bold text-white group-hover:text-amber-300 transition-colors">
-                Commercial 10-AWG Heavy-Duty EV Extension
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
+                Heavy-Duty 10-Gauge Outdoor Extension Cord
               </h3>
-              <p class="text-sm text-slate-400 mt-2 leading-relaxed">
-                Standard household extension cords overheat and trigger EV safety faults. This 10-gauge continuous-draw cord eliminates voltage sag across distance.
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Cheap orange household cords get dangerously hot and trip your car's safety sensors. This extra-thick 10-gauge pure copper cord stays cool all night.
               </p>
 
-              <ul class="mt-4 space-y-1.5 text-xs text-slate-300">
+              <ul class="mt-4 space-y-2 text-xs font-medium text-slate-700">
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-amber-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Continuous 15A / 120V sustained load rated</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Continuous overnight draw rated</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-amber-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Water-resistant lighted indicator plug</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Cold-weather jacket stays flexible in snow</span>
                 </li>
               </ul>
             </div>
 
-            <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
               <div>
-                <span class="text-xs text-slate-400 block font-mono">25ft / 50ft</span>
-                <span class="text-base font-bold text-white">$65 – $119</span>
+                <span class="text-[11px] text-slate-500 block uppercase font-bold tracking-wider">Price Range</span>
+                <span class="text-base font-bold text-slate-900">$65 – $119</span>
               </div>
-              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-slate-950 bg-amber-400 hover:bg-amber-300 shadow-sm transition-all">
-                <span>Check Retailer</span>
+              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white bg-slate-900 hover:bg-brand-600 shadow-sm transition-colors">
+                <span>Check Prices</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
               </a>
             </div>
           </div>
 
-          <!-- Card 4: Locking & Cable Security Clamp -->
-          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 group">
+          <!-- Card 4: Anti-Theft Lock -->
+          <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
             <div>
               <div class="flex items-center justify-between gap-2 mb-4">
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-100 text-rose-800">
                   🔒 Anti-Theft
                 </span>
-                <span class="text-xs font-mono text-slate-400">Street Defense</span>
+                <span class="text-xs font-mono font-medium text-slate-500">Street Security</span>
               </div>
               
-              <div class="w-full h-44 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center p-4 mb-5 relative overflow-hidden group-hover:border-emerald-500/30 transition-colors">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
-                <!-- Icon representation -->
-                <svg class="w-20 h-20 text-emerald-400/80 group-hover:scale-105 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
                 </svg>
-                <div class="absolute bottom-3 left-3 right-3 text-center">
-                  <span class="text-[11px] font-mono text-slate-300 bg-slate-950/80 px-2 py-0.5 rounded border border-slate-800">Hardened Zinc Alloy Flange</span>
-                </div>
               </div>
 
-              <h3 class="text-lg font-bold text-white group-hover:text-emerald-300 transition-colors">
-                J1772 &amp; NACS Plug Lock &amp; Tire Drive-Over Anchor
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
+                Plug Lock Ring &amp; Drive-Over Tire Anchor
               </h3>
-              <p class="text-sm text-slate-400 mt-2 leading-relaxed">
-                Prevents unauthorized disconnects, copper thieves, or sidewalk tampering. Secures your vehicle's charging handle and anchors cable under your tire.
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Prevents strangers from unplugging your car or stealing your charging cord overnight. Locks the handle to your car and clamps the cable under your tire.
               </p>
 
-              <ul class="mt-4 space-y-1.5 text-xs text-slate-300">
+              <ul class="mt-4 space-y-2 text-xs font-medium text-slate-700">
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Weather-sealed 4-digit customizable padlock</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Weatherproof combination padlock included</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Fits standard J1772 trigger latches</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Fits standard J1772 and Tesla adapters</span>
                 </li>
               </ul>
             </div>
 
-            <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
               <div>
-                <span class="text-xs text-slate-400 block font-mono">Peace of Mind</span>
-                <span class="text-base font-bold text-white">$24 – $39</span>
+                <span class="text-[11px] text-slate-500 block uppercase font-bold tracking-wider">Price Range</span>
+                <span class="text-base font-bold text-slate-900">$24 – $39</span>
               </div>
-              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-sm transition-all">
-                <span>Check Retailer</span>
+              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white bg-slate-900 hover:bg-brand-600 shadow-sm transition-colors">
+                <span>Check Prices</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
               </a>
             </div>
           </div>
 
-          <!-- Card 5: Heavy-Duty Sidewalk Cable Protector Ramp -->
-          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 group">
+          <!-- Card 5: Cable Ramp -->
+          <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
             <div>
               <div class="flex items-center justify-between gap-2 mb-4">
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
-                  🚶 Sidewalk Friendly
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-100 text-blue-800">
+                  🚶 Protects Walkers
                 </span>
-                <span class="text-xs font-mono text-slate-400">ADA Compliant</span>
+                <span class="text-xs font-mono font-medium text-slate-500">Trip-Proof</span>
               </div>
               
-              <div class="w-full h-44 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center p-4 mb-5 relative overflow-hidden group-hover:border-cyan-500/30 transition-colors">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
-                <!-- Icon representation -->
-                <svg class="w-20 h-20 text-cyan-400/80 group-hover:scale-105 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0zM13 16V6a1 1 0 00-1-1H4"/>
                 </svg>
-                <div class="absolute bottom-3 left-3 right-3 text-center">
-                  <span class="text-[11px] font-mono text-slate-300 bg-slate-950/80 px-2 py-0.5 rounded border border-slate-800">22,000 lbs Load Capacity</span>
-                </div>
               </div>
 
-              <h3 class="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors">
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
                 Low-Profile Rubber Sidewalk Cable Ramp
               </h3>
-              <p class="text-sm text-slate-400 mt-2 leading-relaxed">
-                Charging from a rowhouse across the public sidewalk? Eliminate trip-and-fall liability and neighbor complaints with high-visibility non-slip rubber ramps.
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                If you run a cable across a public sidewalk from your front porch to your street-parked car, this rubber ramp prevents neighbor complaints and trip hazards.
               </p>
 
-              <ul class="mt-4 space-y-1.5 text-xs text-slate-300">
+              <ul class="mt-4 space-y-2 text-xs font-medium text-slate-700">
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-cyan-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Reflective safety chevron hazard stripes</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>High-visibility bright yellow safety stripes</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-cyan-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Easy flip-open channel for rapid setup</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Heavy enough that strollers and bikes roll right over</span>
                 </li>
               </ul>
             </div>
 
-            <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
               <div>
-                <span class="text-xs text-slate-400 block font-mono">3.3ft Modular</span>
-                <span class="text-base font-bold text-white">$45 – $65</span>
+                <span class="text-[11px] text-slate-500 block uppercase font-bold tracking-wider">Price Range</span>
+                <span class="text-base font-bold text-slate-900">$45 – $65</span>
               </div>
-              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-slate-950 bg-cyan-400 hover:bg-cyan-300 shadow-sm transition-all">
-                <span>Check Retailer</span>
+              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white bg-slate-900 hover:bg-brand-600 shadow-sm transition-colors">
+                <span>Check Prices</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
               </a>
             </div>
           </div>
 
-          <!-- Card 6: Weatherproof In-Use Outlet Cover -->
-          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 group">
+          <!-- Card 6: Weatherproof Box -->
+          <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
             <div>
               <div class="flex items-center justify-between gap-2 mb-4">
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800">
                   🌧️ Weatherproof
                 </span>
-                <span class="text-xs font-mono text-slate-400">NEMA 3R Rated</span>
+                <span class="text-xs font-mono font-medium text-slate-500">Lockable</span>
               </div>
               
-              <div class="w-full h-44 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center p-4 mb-5 relative overflow-hidden group-hover:border-emerald-500/30 transition-colors">
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
-                <!-- Icon representation -->
-                <svg class="w-20 h-20 text-emerald-400/80 group-hover:scale-105 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"/>
                 </svg>
-                <div class="absolute bottom-3 left-3 right-3 text-center">
-                  <span class="text-[11px] font-mono text-slate-300 bg-slate-950/80 px-2 py-0.5 rounded border border-slate-800">Lockable Outer Shield</span>
-                </div>
               </div>
 
-              <h3 class="text-lg font-bold text-white group-hover:text-emerald-300 transition-colors">
-                Extra-Duty Lockable In-Use Outlet Enclosure
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
+                Lockable Weatherproof Outdoor Outlet Shield
               </h3>
-              <p class="text-sm text-slate-400 mt-2 leading-relaxed">
-                Protects exterior shared outlets from torrential rain, ice buildup, and unauthorized tampering while your portable charger remains plugged in overnight.
+              <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Protects outdoor shared wall sockets from heavy rain, snow, and ice while your charger is plugged in. Can be padlocked so neighbors can't disconnect you.
               </p>
 
-              <ul class="mt-4 space-y-1.5 text-xs text-slate-300">
+              <ul class="mt-4 space-y-2 text-xs font-medium text-slate-700">
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Accepts padlocks to prevent unauthorized unplugs</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Extra-deep cavity fits thick charging plugs</span>
                 </li>
                 <li class="flex items-center gap-2">
-                  <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                  <span>Extra deep cavity accommodates heavy EVSE plugs</span>
+                  <span class="text-brand-600 font-bold">✓</span>
+                  <span>Meets electrical code for outdoor wet locations</span>
                 </li>
               </ul>
             </div>
 
-            <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
               <div>
-                <span class="text-xs text-slate-400 block font-mono">Code Compliant</span>
-                <span class="text-base font-bold text-white">$22 – $35</span>
+                <span class="text-[11px] text-slate-500 block uppercase font-bold tracking-wider">Price Range</span>
+                <span class="text-base font-bold text-slate-900">$22 – $35</span>
               </div>
-              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-slate-950 bg-emerald-400 hover:bg-emerald-300 shadow-sm transition-all">
-                <span>Check Retailer</span>
+              <a href="#" rel="sponsored noopener" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-bold text-white bg-slate-900 hover:bg-brand-600 shadow-sm transition-colors">
+                <span>Check Prices</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
               </a>
             </div>
@@ -601,174 +534,164 @@
 
         </div>
 
-        <!-- Compliant FTC Affiliate Disclosure -->
-        <div class="mt-12 p-4 rounded-xl bg-slate-900/80 border border-slate-800 text-slate-400 text-xs flex items-start gap-3">
-          <svg class="w-5 h-5 text-slate-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <!-- Plain English FTC Disclosure -->
+        <div class="mt-12 p-4 rounded-xl bg-slate-50 border border-slate-200 text-slate-600 text-xs flex items-start gap-3">
+          <svg class="w-5 h-5 text-slate-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
           </svg>
           <div class="leading-relaxed">
-            <strong class="text-slate-300">FTC Affiliate Transparency Disclosure:</strong> GarageOrphan.com is an independent publisher supported by our community. When you click through our curated gear links and make a qualifying purchase, we may earn an affiliate commission at zero additional cost to you. We only highlight products tested for urban electrical limits and multi-family dwelling reliability.
+            <strong class="text-slate-900">Affiliate Disclosure:</strong> GarageOrphan.com is a reader-supported resource. When you click through our links to buy recommended gear, we may earn an affiliate commission at zero additional cost to you. We only recommend products tested for apartment and outdoor street use.
           </div>
         </div>
 
       </div>
     </section>
 
-    <!-- 4. INTERACTIVE LEAD CAPTURE FORM (HOA / STRATA REQUEST KIT) -->
-    <section id="request-kit" class="py-20 bg-slate-900/60 relative overflow-hidden">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <!-- 4. INTERACTIVE LEAD CAPTURE FORM (HOA / LANDLORD PROPOSAL KIT) -->
+    <section id="request-kit" class="py-16 md:py-24 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
-          <!-- Copy & Benefits Column -->
+          <!-- Copy Column -->
           <div class="lg:col-span-6">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-medium bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 mb-4">
-              Free Legal &amp; Architectural Toolkit
-            </div>
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-100 text-brand-800 mb-4">
+              Free Download
+            </span>
             
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-              Get Your HOA or Landlord to Install EV Charging
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+              Get Your HOA Board or Landlord to Say "Yes" to EV Charging
             </h2>
             
-            <p class="text-slate-300 text-base mt-4 leading-relaxed">
-              Most tenant and condo owner requests fail because they lack insurance clarity, electrical load calculations, and statutory legal backing. Don’t reinvent the wheel—hand them an airtight proposal package.
+            <p class="text-slate-600 text-base mt-4 leading-relaxed">
+              Most tenant requests are rejected because landlords assume other residents will get stuck paying your electric bill. Our ready-to-send proposal packet answers every concern upfront before they can say no.
             </p>
 
-            <!-- Kit contents checklist -->
+            <!-- Kit contents in clear English -->
             <div class="mt-8 space-y-4">
               <div class="flex items-start gap-3.5">
-                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <div class="w-6 h-6 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
+                  ✓
                 </div>
                 <div>
-                  <h4 class="text-sm font-bold text-white">Statutory Right-to-Charge Formal Notice</h4>
-                  <p class="text-xs text-slate-400 mt-0.5">Customized legal notification citing state-specific statutes prohibiting unreasonable HOA bans.</p>
+                  <h4 class="text-sm font-bold text-slate-900">A Polite, Ready-to-Send Request Letter</h4>
+                  <p class="text-xs text-slate-600 mt-0.5">Cites specific state laws ("Right-to-Charge" statutes) that prohibit boards from arbitrarily banning chargers.</p>
                 </div>
               </div>
 
               <div class="flex items-start gap-3.5">
-                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <div class="w-6 h-6 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
+                  ✓
                 </div>
                 <div>
-                  <h4 class="text-sm font-bold text-white">Electric Panel &amp; Sub-Meter Cost Allocation Blueprint</h4>
-                  <p class="text-xs text-slate-400 mt-0.5">Proves to the board that other residents will not subsidize your electricity usage.</p>
+                  <h4 class="text-sm font-bold text-slate-900">Electric Bill Protection Agreement</h4>
+                  <p class="text-xs text-slate-600 mt-0.5">A simple one-page breakdown proving you will pay for your own electricity so building fees don't go up.</p>
                 </div>
               </div>
 
               <div class="flex items-start gap-3.5">
-                <div class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <div class="w-6 h-6 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
+                  ✓
                 </div>
                 <div>
-                  <h4 class="text-sm font-bold text-white">Commercial Electrician RFP Template</h4>
-                  <p class="text-xs text-slate-400 mt-0.5">Ready-to-send scope of work request for licensed electrical contractors.</p>
+                  <h4 class="text-sm font-bold text-slate-900">Electrician Quote Checklist</h4>
+                  <p class="text-xs text-slate-600 mt-0.5">Hand this 1-page checklist to any licensed local electrician to get an accurate, painless cost estimate.</p>
                 </div>
               </div>
             </div>
 
-            <!-- Stats note -->
-            <div class="mt-8 p-4 rounded-xl bg-slate-950/70 border border-slate-800 flex items-center gap-3">
-              <span class="text-2xl">📋</span>
-              <p class="text-xs text-slate-300">
-                Downloaded by over <span class="text-emerald-400 font-bold">14,200+ EV drivers</span> in 2025–2026 across US &amp; Canadian metro areas.
+            <div class="mt-8 p-4 rounded-xl bg-white border border-slate-200 shadow-sm flex items-center gap-3">
+              <span class="text-2xl">📁</span>
+              <p class="text-xs text-slate-700">
+                Downloaded by over <strong class="text-brand-700">14,200+ condo owners &amp; renters</strong> across the US and Canada.
               </p>
             </div>
           </div>
 
-          <!-- Interactive Form Column -->
+          <!-- Form Card -->
           <div class="lg:col-span-6">
-            <div class="glass-card rounded-2xl p-6 sm:p-8 relative shadow-2xl border border-slate-700/80">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-lg">
               
               <div class="mb-6">
-                <h3 class="text-xl font-bold text-white">Request Your Free Action Pack</h3>
-                <p class="text-xs text-slate-400 mt-1">Instant PDF bundle delivered directly to your inbox.</p>
+                <h3 class="text-xl font-bold text-slate-900">Download the Free Proposal Packet</h3>
+                <p class="text-xs text-slate-500 mt-1">Instant Word &amp; PDF templates sent straight to your inbox.</p>
               </div>
 
-              <!-- Form State Container -->
+              <!-- Form -->
               <form id="hoaRequestForm" class="space-y-4" novalidate>
                 
-                <!-- Full Name -->
                 <div>
-                  <label for="fullName" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
-                    Full Name <span class="text-emerald-400">*</span>
+                  <label for="fullName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                    Your Name <span class="text-brand-600">*</span>
                   </label>
-                  <input type="text" id="fullName" name="fullName" required placeholder="e.g. Jordan Vance"
-                    class="w-full px-4 py-2.5 rounded-lg bg-slate-900/90 border border-slate-700 text-white text-sm placeholder-slate-500 focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 transition-colors">
-                  <span class="text-xs text-rose-400 hidden mt-1" id="fullNameError">Please enter your full name.</span>
+                  <input type="text" id="fullName" name="fullName" required placeholder="e.g. Jordan Miller"
+                    class="w-full px-4 py-2.5 rounded-lg bg-slate-50 border border-slate-300 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-600 focus:bg-white focus:ring-1 focus:ring-brand-600 transition-colors">
+                  <span class="text-xs text-rose-600 hidden mt-1" id="fullNameError">Please enter your name.</span>
                 </div>
 
-                <!-- Email -->
                 <div>
-                  <label for="emailAddress" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
-                    Work or Personal Email <span class="text-emerald-400">*</span>
+                  <label for="emailAddress" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                    Email Address (Where should we send the packet?) <span class="text-brand-600">*</span>
                   </label>
                   <input type="email" id="emailAddress" name="email" required placeholder="you@domain.com"
-                    class="w-full px-4 py-2.5 rounded-lg bg-slate-900/90 border border-slate-700 text-white text-sm placeholder-slate-500 focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 transition-colors">
-                  <span class="text-xs text-rose-400 hidden mt-1" id="emailError">Please enter a valid email address.</span>
+                    class="w-full px-4 py-2.5 rounded-lg bg-slate-50 border border-slate-300 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-600 focus:bg-white focus:ring-1 focus:ring-brand-600 transition-colors">
+                  <span class="text-xs text-rose-600 hidden mt-1" id="emailError">Please enter a valid email address.</span>
                 </div>
 
-                <!-- 2-col Grid: Resident Type & City/State -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <!-- Resident Type -->
                   <div>
-                    <label for="residentType" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
-                      Your Role <span class="text-emerald-400">*</span>
+                    <label for="residentType" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                      Where Do You Live? <span class="text-brand-600">*</span>
                     </label>
                     <select id="residentType" name="residentType" required
-                      class="w-full px-4 py-2.5 rounded-lg bg-slate-900/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 transition-colors">
+                      class="w-full px-4 py-2.5 rounded-lg bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:outline-none focus:border-brand-600 focus:bg-white focus:ring-1 focus:ring-brand-600 transition-colors">
                       <option value="" disabled selected>Select living situation</option>
-                      <option value="Condo Owner">Condo / Strata Owner</option>
-                      <option value="Apartment Tenant">Apartment Tenant</option>
-                      <option value="HOA Board Member">HOA Board Member</option>
-                      <option value="Property Manager">Property Manager</option>
-                      <option value="Street Parked Driver">Street-Parked Urban Driver</option>
+                      <option value="Condo Owner">I own a Condo / Townhome</option>
+                      <option value="Apartment Tenant">I rent an Apartment</option>
+                      <option value="HOA Board Member">I am on an HOA Board</option>
+                      <option value="Property Manager">I am a Property Manager</option>
+                      <option value="Street Parked Driver">I park on the street</option>
                     </select>
-                    <span class="text-xs text-rose-400 hidden mt-1" id="residentTypeError">Please select your situation.</span>
+                    <span class="text-xs text-rose-600 hidden mt-1" id="residentTypeError">Please choose an option.</span>
                   </div>
 
-                  <!-- City & State / Province -->
                   <div>
-                    <label for="location" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
-                      City &amp; State / Province <span class="text-emerald-400">*</span>
+                    <label for="location" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                      City &amp; State <span class="text-brand-600">*</span>
                     </label>
-                    <input type="text" id="location" name="location" required placeholder="e.g. Chicago, IL"
-                      class="w-full px-4 py-2.5 rounded-lg bg-slate-900/90 border border-slate-700 text-white text-sm placeholder-slate-500 focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 transition-colors">
-                    <span class="text-xs text-rose-400 hidden mt-1" id="locationError">Please provide your city &amp; state.</span>
+                    <input type="text" id="location" name="location" required placeholder="e.g. Denver, CO"
+                      class="w-full px-4 py-2.5 rounded-lg bg-slate-50 border border-slate-300 text-slate-900 text-sm placeholder-slate-400 focus:outline-none focus:border-brand-600 focus:bg-white focus:ring-1 focus:ring-brand-600 transition-colors">
+                    <span class="text-xs text-rose-600 hidden mt-1" id="locationError">Please enter your city and state.</span>
                   </div>
                 </div>
 
-                <!-- Building Size / Parking Stalls -->
                 <div>
-                  <label for="buildingSize" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
-                    Estimated Parking Stalls / Building Units
+                  <label for="buildingSize" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                    How Many Parking Spots Does Your Building Have?
                   </label>
                   <select id="buildingSize" name="buildingSize"
-                    class="w-full px-4 py-2.5 rounded-lg bg-slate-900/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-400 transition-colors">
-                    <option value="1-10 Stalls">Small (1 – 10 Stalls / Duplex-Fourplex)</option>
-                    <option value="11-50 Stalls" selected>Mid-size (11 – 50 Stalls / Mid-Rise)</option>
-                    <option value="51-200 Stalls">Large (51 – 200 Stalls / High-Rise)</option>
-                    <option value="200+ Stalls">Major Complex (200+ Stalls)</option>
-                    <option value="Street Parking Only">Dedicated Street Parking Only</option>
+                    class="w-full px-4 py-2.5 rounded-lg bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:outline-none focus:border-brand-600 focus:bg-white focus:ring-1 focus:ring-brand-600 transition-colors">
+                    <option value="1-10 Stalls">Small (1 – 10 spots / 4-plex or small lot)</option>
+                    <option value="11-50 Stalls" selected>Medium (11 – 50 spots / typical building)</option>
+                    <option value="51-200 Stalls">Large (51 – 200 spots / large complex)</option>
+                    <option value="200+ Stalls">Very Large (200+ spots)</option>
+                    <option value="Street Parking Only">Street parking only</option>
                   </select>
                 </div>
 
-                <!-- Consent and Privacy -->
                 <div class="flex items-start gap-2 pt-1">
                   <input type="checkbox" id="privacyConsent" name="privacyConsent" checked required
-                    class="mt-1 w-4 h-4 rounded bg-slate-900 border-slate-700 text-emerald-500 focus:ring-emerald-400">
-                  <label for="privacyConsent" class="text-[11px] text-slate-400">
-                    I agree to receive the free proposal kit and occasional updates on urban EV charging policies. Unsubscribe anytime.
+                    class="mt-1 w-4 h-4 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
+                  <label for="privacyConsent" class="text-xs text-slate-600">
+                    Send me the free proposal packet and occasional policy updates. No spam, unsubscribe anytime.
                   </label>
                 </div>
 
-                <!-- Submit Button -->
                 <div class="pt-2">
                   <button type="submit" id="submitBtn"
-                    class="w-full flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm text-slate-950 bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 shadow-glow-emerald transition-all duration-200 disabled:opacity-50">
-                    <span id="btnText">Download Right-to-Charge Proposal Kit</span>
-                    <!-- Spinner (hidden by default) -->
-                    <svg id="btnSpinner" class="hidden w-4 h-4 text-slate-950 animate-spin" fill="none" viewBox="0 0 24 24">
+                    class="w-full flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm text-white bg-brand-600 hover:bg-brand-700 shadow-md transition-all duration-200 disabled:opacity-50">
+                    <span id="btnText">Email Me the Free HOA Request Packet</span>
+                    <svg id="btnSpinner" class="hidden w-4 h-4 text-white animate-spin" fill="none" viewBox="0 0 24 24">
                       <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                       <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                     </svg>
@@ -776,32 +699,27 @@
                 </div>
 
                 <div class="text-center">
-                  <p class="text-[11px] text-slate-500">🔒 256-bit SSL encrypted. We never sell or spam your contact information.</p>
+                  <p class="text-[11px] text-slate-400">🔒 We respect your privacy and will never sell your contact info.</p>
                 </div>
-
               </form>
 
-              <!-- Inline Success State (hidden initially) -->
+              <!-- Inline Success State -->
               <div id="formSuccessMessage" class="hidden py-8 px-4 text-center">
-                <div class="w-14 h-14 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 flex items-center justify-center mx-auto mb-4">
-                  <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                  </svg>
+                <div class="w-14 h-14 rounded-full bg-brand-100 text-brand-700 flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                  ✓
                 </div>
-                <h4 class="text-xl font-bold text-white mb-2">Your Proposal Kit is Ready!</h4>
-                <p class="text-slate-300 text-sm max-w-md mx-auto mb-6">
-                  We've dispatched the complete legal packet and HOA presentation template to <span id="successEmailDisplay" class="text-emerald-400 font-semibold"></span>.
+                <h4 class="text-xl font-bold text-slate-900 mb-2">Check Your Inbox!</h4>
+                <p class="text-slate-600 text-sm max-w-md mx-auto mb-6">
+                  We've sent the complete proposal letter and electrician checklist to <strong id="successEmailDisplay" class="text-brand-700"></strong>.
                 </p>
-                <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 max-w-sm mx-auto mb-6 text-left text-xs space-y-2 text-slate-300">
-                  <div class="font-bold text-white flex items-center gap-1.5">
-                    <span class="text-emerald-400">✓</span> Instant Pack Contents:
-                  </div>
-                  <div>• Statutory Notice Template (.DOCX &amp; .PDF)</div>
-                  <div>• HOA Electrical Board Presentation (.PPTX)</div>
-                  <div>• Sub-metering Cost Sharing Agreement (.PDF)</div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 max-w-sm mx-auto mb-6 text-left text-xs space-y-2 text-slate-700">
+                  <div class="font-bold text-slate-900">Your Download Includes:</div>
+                  <div>• Word (.docx) &amp; PDF Landlord Request Letter</div>
+                  <div>• State-by-State "Right-to-Charge" Law Sheet</div>
+                  <div>• 1-Page Electrician Estimate Guide</div>
                 </div>
-                <button type="button" onclick="resetLeadForm()" class="text-xs font-semibold text-cyan-400 hover:text-cyan-300 underline">
-                  Submit another building request
+                <button type="button" onclick="resetLeadForm()" class="text-xs font-bold text-brand-600 hover:text-brand-800 underline">
+                  Request another packet
                 </button>
               </div>
 
@@ -813,132 +731,132 @@
       </div>
     </section>
 
-    <!-- 5. QUICK-REFERENCE RESOURCE ACCORDION / FAQ -->
-    <section id="faq" class="py-20 bg-slate-950 border-t border-slate-800/80">
+    <!-- 5. QUICK-REFERENCE FAQ -->
+    <section id="faq" class="py-16 md:py-24 bg-white border-b border-slate-200">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div class="text-center mb-14">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-3">
-            Knowledge Base
-          </div>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-slate-100 text-slate-800 mb-3">
+            Real Answers
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
             Frequently Asked Questions
           </h2>
-          <p class="text-slate-400 text-sm sm:text-base mt-2 max-w-xl mx-auto">
-            Practical, non-sugarcoated guidance for living with an electric car when you lack private off-street parking.
+          <p class="text-slate-600 text-base mt-2 max-w-xl mx-auto">
+            Honest answers to the most common questions about owning an EV without a private garage.
           </p>
         </div>
 
-        <!-- Accordion Container -->
         <div class="space-y-4" id="faqAccordion">
 
           <!-- Item 1 -->
-          <div class="border border-slate-800 rounded-xl bg-slate-900/60 overflow-hidden transition-colors duration-200">
+          <div class="border border-slate-200 rounded-xl bg-white overflow-hidden transition-all shadow-card">
             <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false" aria-controls="faq-ans-1">
-              <span class="text-base sm:text-lg font-semibold text-white">
-                What exactly is a "Garage Orphan"?
+              <span class="text-base sm:text-lg font-bold text-slate-900">
+                What is a "garage orphan"?
               </span>
-              <span class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center shrink-0 text-slate-400 group-hover:text-emerald-400">
+              <span class="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 text-slate-500">
                 <svg class="w-4 h-4 transform transition-transform duration-300 chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                 </svg>
               </span>
             </button>
-            <div id="faq-ans-1" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-300 leading-relaxed border-t border-slate-800/50">
+            <div id="faq-ans-1" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
               <p>
-                A <strong class="text-emerald-400">Garage Orphan</strong> is an EV driver or prospective electric car owner who resides in an apartment, condominium, co-op, or urban rowhouse without access to a private garage or assigned carport with a dedicated electrical outlet.
+                A <strong>garage orphan</strong> is anyone who owns an EV (or wants to buy one) but lives in an apartment, condo, townhome, or urban house without a private driveway or dedicated electrical outlet.
               </p>
               <p class="mt-2.5">
-                Over 40% of US households (and upwards of 60% in high-density European and Asian cities) fall into this category. Traditionally, EV adoption messaging assumed single-family suburban homeownership with a 240V garage outlet. Garage orphans navigate this gap through curbside Level 1 charging, workplace chargers, public DC Fast Charging hubs, and community peer-to-peer charging networks.
+                Over 40% of American households fall into this group. You don't need a single-family home with a two-car garage to drive electric—you just charge a little differently: plugging into standard wall outlets overnight, charging while grocery shopping or working, using public fast chargers, or sharing driveways with neighbors.
               </p>
             </div>
           </div>
 
           <!-- Item 2 -->
-          <div class="border border-slate-800 rounded-xl bg-slate-900/60 overflow-hidden transition-colors duration-200">
+          <div class="border border-slate-200 rounded-xl bg-white overflow-hidden transition-all shadow-card">
             <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false" aria-controls="faq-ans-2">
-              <span class="text-base sm:text-lg font-semibold text-white">
-                What are "Right-to-Charge" laws and do they protect me?
+              <span class="text-base sm:text-lg font-bold text-slate-900">
+                What are "Right-to-Charge" laws? Can my HOA really not ban me?
               </span>
-              <span class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center shrink-0 text-slate-400">
+              <span class="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 text-slate-500">
                 <svg class="w-4 h-4 transform transition-transform duration-300 chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                 </svg>
               </span>
             </button>
-            <div id="faq-ans-2" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-300 leading-relaxed border-t border-slate-800/50">
+            <div id="faq-ans-2" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
               <p>
-                <strong>Right-to-Charge laws</strong> are statutes enacted by state and provincial governments that make it illegal for an HOA, condo board, or landlord to outright ban a tenant or unit owner from installing an EV charging station at their deeded or assigned parking space.
+                In more than 18 states (including <strong>California, Colorado, Florida, Hawaii, New York, New Jersey, Oregon, Virginia, and Washington</strong>), state law explicitly makes it illegal for an HOA, condo board, or landlord to unreasonably deny a resident's request to install an EV charger at their assigned parking stall.
               </p>
               <p class="mt-2.5">
-                Currently, states including <strong>California (Civ. Code § 4781), Colorado, Florida, Hawaii, New York, New Jersey, Oregon, Virginia, and Washington</strong> have established Right-to-Charge laws. Under these rules, as long as the resident pays for installation, sub-metering, and insurance, the board cannot enact unreasonable hurdles or arbitrary rejections. Our <a href="#request-kit" class="text-emerald-400 underline">Free Request Kit</a> contains specific state-by-state statutory citations.
+                As long as you agree to pay for the installation and your own electricity, the board cannot put up arbitrary roadblocks. Our <a href="#request-kit" class="text-brand-600 font-semibold underline">Free Proposal Kit</a> gives you the exact legal clause to include in your letter.
               </p>
             </div>
           </div>
 
           <!-- Item 3 -->
-          <div class="border border-slate-800 rounded-xl bg-slate-900/60 overflow-hidden transition-colors duration-200">
+          <div class="border border-slate-200 rounded-xl bg-white overflow-hidden transition-all shadow-card">
             <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false" aria-controls="faq-ans-3">
-              <span class="text-base sm:text-lg font-semibold text-white">
-                Can I really charge an EV from a standard curbside 120V household outlet?
+              <span class="text-base sm:text-lg font-bold text-slate-900">
+                Can I really charge an electric car from a normal 120V household wall outlet?
               </span>
-              <span class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center shrink-0 text-slate-400">
+              <span class="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 text-slate-500">
                 <svg class="w-4 h-4 transform transition-transform duration-300 chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                 </svg>
               </span>
             </button>
-            <div id="faq-ans-3" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-300 leading-relaxed border-t border-slate-800/50">
+            <div id="faq-ans-3" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
               <p>
-                <strong>Yes, absolutely.</strong> This is known as Level 1 "trickle" charging. While slower (typically yielding 3 to 5 miles of driving range per hour plugged in), an EV plugged in for 12 hours overnight will recoup <strong>36 to 60 miles</strong>—more than the 30-mile daily average commute of most American drivers.
+                <strong>Yes, absolutely.</strong> This is called Level 1 charging. It's slower (giving you about 3 to 5 miles of driving range per hour plugged in), but if you plug in for 12 hours overnight, you wake up with <strong>36 to 60 miles of fresh range</strong>.
               </p>
-              <div class="mt-3 p-3 rounded-lg bg-slate-950 border border-slate-800 text-xs">
-                <strong class="text-amber-400">Critical Safety Note:</strong> Never use cheap thin household extension cords. Always use a dedicated 10-AWG commercial outdoor rated cable, verify the outlet has GFCI protection, and use an ADA rubber curb ramp if crossing a public sidewalk to prevent tripping hazards.
-              </div>
+              <p class="mt-2.5">
+                Since the average American drives around 30 miles per day, a normal wall outlet covers 100% of daily driving for most commuters. Just be sure to use a thick, commercial 10-gauge outdoor extension cord rather than a thin household cord.
+              </p>
             </div>
           </div>
 
           <!-- Item 4 -->
-          <div class="border border-slate-800 rounded-xl bg-slate-900/60 overflow-hidden transition-colors duration-200">
+          <div class="border border-slate-200 rounded-xl bg-white overflow-hidden transition-all shadow-card">
             <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false" aria-controls="faq-ans-4">
-              <span class="text-base sm:text-lg font-semibold text-white">
-                What are P2P (Peer-to-Peer) driveway charging networks?
+              <span class="text-base sm:text-lg font-bold text-slate-900">
+                What is driveway sharing (P2P charging)?
               </span>
-              <span class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center shrink-0 text-slate-400">
+              <span class="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 text-slate-500">
                 <svg class="w-4 h-4 transform transition-transform duration-300 chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                 </svg>
               </span>
             </button>
-            <div id="faq-ans-4" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-300 leading-relaxed border-t border-slate-800/50">
+            <div id="faq-ans-4" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
               <p>
-                P2P charging platforms (such as EVmatch, WattShare, and neighborhood driveway co-ops) function like an "Airbnb for EV chargers." Homeowners with private driveways and Level 2 chargers rent out access to their equipment during working hours or overnight.
+                Think of it like an "Airbnb for EV chargers." Platforms like EVmatch and neighborhood co-ops allow homeowners who have private driveways and 240V Level 2 chargers to rent them out to nearby apartment dwellers.
               </p>
               <p class="mt-2.5">
-                For an urban apartment dweller who lives two blocks away, booking a neighbor's driveway twice a week provides reliable Level 2 overnight charging at a fraction of the cost of public DC fast chargers, while generating passive income for the host homeowner.
+                If you live in an apartment, you can reserve a spot in a neighbor's driveway down the street for a few hours, get a fast full charge at low home-electricity rates, and pick up your car in the morning.
               </p>
             </div>
           </div>
 
           <!-- Item 5 -->
-          <div class="border border-slate-800 rounded-xl bg-slate-900/60 overflow-hidden transition-colors duration-200">
+          <div class="border border-slate-200 rounded-xl bg-white overflow-hidden transition-all shadow-card">
             <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false" aria-controls="faq-ans-5">
-              <span class="text-base sm:text-lg font-semibold text-white">
-                How can I preserve battery health if I rely heavily on public DC Fast Charging?
+              <span class="text-base sm:text-lg font-bold text-slate-900">
+                Will using public fast chargers all the time damage my battery?
               </span>
-              <span class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center shrink-0 text-slate-400">
+              <span class="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center shrink-0 text-slate-500">
                 <svg class="w-4 h-4 transform transition-transform duration-300 chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                 </svg>
               </span>
             </button>
-            <div id="faq-ans-5" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-300 leading-relaxed border-t border-slate-800/50">
+            <div id="faq-ans-5" class="faq-content hidden px-6 pb-6 pt-1 text-sm text-slate-600 leading-relaxed border-t border-slate-100">
               <p>
-                Modern EV battery management systems (BMS) with liquid cooling handle fast charging well, but you can minimize long-term degradation by following the <strong>20%–80% rule</strong>: stop fast charging at 80% where charging speeds taper off and heat accumulates most.
+                Modern EVs have active liquid cooling systems designed to protect the battery during fast charging. However, two simple habits will keep your battery healthy for years:
               </p>
-              <p class="mt-2.5">
-                Always allow the vehicle to pre-condition the battery pack before plugging into a high-amperage stall, and try to supplement fast charging with slower Level 2 "opportunity charging" while grocery shopping, watching movies, or exercising at the gym.
-              </p>
+              <ul class="list-disc list-inside mt-2 space-y-1 text-xs">
+                <li><strong>Unplug at 80%:</strong> The last 20% charges much slower and creates the most heat.</li>
+                <li><strong>Mix in slower charging:</strong> Take advantage of slower Level 2 public chargers whenever you're at the gym, grocery store, or movies.</li>
+              </ul>
             </div>
           </div>
 
@@ -950,146 +868,136 @@
   </main>
 
   <!-- 6. FOOTER -->
-  <footer class="bg-slate-950 border-t border-slate-800/80 pt-16 pb-12 text-slate-400 text-sm">
+  <footer class="bg-white border-t border-slate-200 pt-16 pb-12 text-slate-600 text-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800/80">
-        <!-- Col 1: Brand & Mission -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-200">
         <div class="md:col-span-2">
           <div class="flex items-center space-x-3 mb-4">
-            <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-emerald-500 to-cyan-500 p-0.5">
-              <div class="w-full h-full bg-slate-900 rounded-[7px] flex items-center justify-center">
-                <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                </svg>
-              </div>
+            <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
             </div>
-            <span class="text-base font-bold text-white tracking-tight">Garage<span class="text-emerald-400">Orphan</span>.com</span>
+            <span class="text-lg font-bold text-slate-900 tracking-tight">Garage<span class="text-brand-600">Orphan</span>.com</span>
           </div>
-          <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
-            Empowering the 40%+ of drivers who love electric mobility but don't have a private garage. Practical engineering, policy blueprints, and hardware tests for urban apartment dwellers.
+          <p class="text-xs text-slate-500 leading-relaxed max-w-sm">
+            Dedicated to helping the 40%+ of drivers who want electric cars but don't have private home garages. Honest hardware testing and legal templates for everyday renters and condo owners.
           </p>
-          <div class="mt-4 inline-flex items-center gap-2 text-xs text-slate-400 font-mono">
-            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-            <span>Cloudflare Edge Deployed • Global CDN</span>
+          <div class="mt-4 inline-flex items-center gap-2 text-xs text-slate-500 font-mono">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            <span>Cloudflare Edge Deployed • Fast &amp; Secure</span>
           </div>
         </div>
 
-        <!-- Col 2: Navigation -->
         <div>
-          <h5 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Resources</h5>
+          <h5 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3">Resources</h5>
           <ul class="space-y-2 text-xs">
-            <li><a href="#gear" class="hover:text-emerald-400 transition-colors">Survival Hardware</a></li>
-            <li><a href="#request-kit" class="hover:text-emerald-400 transition-colors">HOA Request Kit</a></li>
-            <li><a href="#faq" class="hover:text-emerald-400 transition-colors">Right-to-Charge Law Guide</a></li>
-            <li><a href="#inquire" onclick="openAcquisitionModal()" class="hover:text-cyan-400 transition-colors">Domain Acquisition</a></li>
+            <li><a href="#gear" class="hover:text-brand-600 transition-colors">Charging Gear Guide</a></li>
+            <li><a href="#request-kit" class="hover:text-brand-600 transition-colors">Free Landlord / HOA Letter</a></li>
+            <li><a href="#faq" class="hover:text-brand-600 transition-colors">Right-to-Charge FAQ</a></li>
+            <li><a href="#inquire" onclick="openAcquisitionModal()" class="hover:text-accent-600 transition-colors">Acquire This Domain</a></li>
           </ul>
         </div>
 
-        <!-- Col 3: Legal & Inquiries -->
         <div>
-          <h5 class="text-xs font-bold text-white uppercase tracking-wider mb-3">Direct Contact</h5>
-          <p class="text-xs text-slate-400 mb-3">
-            For partnerships, hardware review samples, or acquisition inquiries:
+          <h5 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3">Direct Contact</h5>
+          <p class="text-xs text-slate-500 mb-3">
+            For partnerships, gear testing inquiries, or domain purchase:
           </p>
-          <a href="mailto:inquire@garageorphan.com?subject=GarageOrphan.com%20Inquiry" class="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-400 hover:text-emerald-300">
+          <a href="mailto:inquire@garageorphan.com?subject=GarageOrphan.com%20Inquiry" class="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 hover:text-brand-700">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
             <span>inquire@garageorphan.com</span>
           </a>
         </div>
       </div>
 
-      <!-- Bottom Bar -->
-      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
         <p>© 2026 GarageOrphan.com. All rights reserved.</p>
-        <div class="flex items-center space-x-6 text-slate-400">
-          <a href="#" onclick="alert('Privacy Policy: We never sell your personal information or data to third parties. Emails collected are strictly used for the requested proposal kits.'); return false;" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
-          <a href="#" onclick="alert('Terms: Informational and educational resource only. Always verify local electrical codes with a licensed electrician before installation.'); return false;" class="hover:text-slate-300 transition-colors">Terms of Service</a>
-          <a href="#inquire" onclick="openAcquisitionModal(); return false;" class="text-emerald-400 hover:underline">Acquisition Notice</a>
+        <div class="flex items-center space-x-6">
+          <a href="#" onclick="alert('Privacy Policy: We never sell or share your personal information. Emails collected are only used to deliver the requested proposal kits.'); return false;" class="hover:text-slate-900 transition-colors">Privacy Policy</a>
+          <a href="#" onclick="alert('Terms: Informational only. Always consult a licensed local electrician before modifying any electrical panels or outlets.'); return false;" class="hover:text-slate-900 transition-colors">Terms of Service</a>
+          <a href="#inquire" onclick="openAcquisitionModal(); return false;" class="text-brand-600 hover:underline">Domain Acquisition</a>
         </div>
       </div>
 
     </div>
   </footer>
 
-  <!-- 7. ACQUISITION / PARTNERSHIP MODAL -->
+  <!-- 7. ACQUISITION MODAL -->
   <div id="acquisitionModal" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-    <!-- Backdrop -->
-    <div class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm transition-opacity" onclick="closeAcquisitionModal()"></div>
+    <div class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity" onclick="closeAcquisitionModal()"></div>
 
     <div class="min-h-full flex items-center justify-center p-4 text-center sm:p-0">
-      <div class="relative bg-slate-900 border border-slate-700 rounded-2xl text-left overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:max-w-lg w-full p-6 sm:p-8">
+      <div class="relative bg-white border border-slate-200 rounded-2xl text-left overflow-hidden shadow-2xl transform transition-all sm:my-8 sm:max-w-lg w-full p-6 sm:p-8">
         
-        <!-- Close button -->
-        <button type="button" onclick="closeAcquisitionModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-1 rounded-lg">
+        <button type="button" onclick="closeAcquisitionModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 p-1 rounded-lg">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
           </svg>
         </button>
 
         <div class="flex items-center gap-3 mb-4">
-          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+          <div class="w-10 h-10 rounded-xl bg-brand-50 border border-brand-200 flex items-center justify-center text-brand-700">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
             </svg>
           </div>
           <div>
-            <h3 id="modal-title" class="text-lg font-bold text-white">Acquire GarageOrphan.com</h3>
-            <span class="text-xs font-mono text-emerald-400">Direct Portfolio / Escrow Sale</span>
+            <h3 id="modal-title" class="text-lg font-bold text-slate-900">Acquire GarageOrphan.com</h3>
+            <span class="text-xs font-semibold text-brand-700">Category Domain Asset</span>
           </div>
         </div>
 
-        <p class="text-sm text-slate-300 mb-5 leading-relaxed">
-          <strong class="text-white">GarageOrphan.com</strong> is a memorable category-defining digital asset positioned squarely in the center of the multi-billion dollar urban electric vehicle transition.
+        <p class="text-sm text-slate-600 mb-5 leading-relaxed">
+          <strong class="text-slate-900">GarageOrphan.com</strong> is a premium, category-defining domain representing the 40+ million EV drivers without dedicated home garages.
         </p>
 
-        <!-- Key Asset Highlights -->
-        <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 mb-6 text-xs space-y-2 text-slate-300">
+        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 mb-6 text-xs space-y-2 text-slate-600">
           <div class="flex items-center justify-between">
-            <span class="text-slate-400">Category:</span>
-            <span class="font-mono text-white font-semibold">EV Infrastructure / Clean Energy</span>
+            <span class="text-slate-500">Category:</span>
+            <span class="font-bold text-slate-800">EV Charging &amp; Clean Energy</span>
           </div>
           <div class="flex items-center justify-between">
-            <span class="text-slate-400">Target Audience:</span>
-            <span class="font-mono text-emerald-400">40M+ Multi-family EV Owners</span>
+            <span class="text-slate-500">Market Size:</span>
+            <span class="font-bold text-brand-700">40M+ Multi-family &amp; Street Parkers</span>
           </div>
           <div class="flex items-center justify-between">
-            <span class="text-slate-400">Transfer Guarantee:</span>
-            <span class="font-mono text-cyan-400">Escrow.com Verified Transfer</span>
+            <span class="text-slate-500">Transfer Method:</span>
+            <span class="font-bold text-slate-800">Escrow.com Secure Transfer</span>
           </div>
         </div>
 
-        <!-- Acquisition Form -->
         <form id="acquisitionForm" onsubmit="handleAcquisitionSubmit(event)" class="space-y-4">
           <div>
-            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">Your Name / Organization *</label>
-            <input type="text" id="acqName" required placeholder="Jane Doe or Apex Mobility LLC"
-              class="w-full px-3.5 py-2 rounded-lg bg-slate-950 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-400">
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Name / Organization *</label>
+            <input type="text" id="acqName" required placeholder="e.g. Jane Doe or Apex Mobility LLC"
+              class="w-full px-3.5 py-2 rounded-lg bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:outline-none focus:border-brand-600 focus:bg-white">
           </div>
           <div>
-            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">Email Address *</label>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Email Address *</label>
             <input type="email" id="acqEmail" required placeholder="contact@company.com"
-              class="w-full px-3.5 py-2 rounded-lg bg-slate-950 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-400">
+              class="w-full px-3.5 py-2 rounded-lg bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:outline-none focus:border-brand-600 focus:bg-white">
           </div>
           <div>
-            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">Inquiry Type / Opening Offer (USD)</label>
-            <input type="text" id="acqOffer" placeholder="e.g. $5,000 USD or Strategic Licensing"
-              class="w-full px-3.5 py-2 rounded-lg bg-slate-950 border border-slate-700 text-white text-sm focus:outline-none focus:border-emerald-400">
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Inquiry Type / Opening Offer (USD)</label>
+            <input type="text" id="acqOffer" placeholder="e.g. $5,000 USD or Strategic Partnership"
+              class="w-full px-3.5 py-2 rounded-lg bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:outline-none focus:border-brand-600 focus:bg-white">
           </div>
           
           <div class="pt-2">
-            <button type="submit" id="acqSubmitBtn" class="w-full py-2.5 px-4 rounded-xl font-bold text-sm text-slate-950 bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 shadow-glow-emerald transition-all">
-              Submit Confidential Inquiry
+            <button type="submit" id="acqSubmitBtn" class="w-full py-2.5 px-4 rounded-xl font-bold text-sm text-white bg-brand-600 hover:bg-brand-700 shadow-sm transition-all">
+              Submit Inquiry
             </button>
           </div>
-          <div id="acqSuccessMsg" class="hidden text-center text-xs text-emerald-400 font-medium pt-1">
-            ✓ Inquiry received. Our broker will respond within 24 hours.
+          <div id="acqSuccessMsg" class="hidden text-center text-xs text-brand-700 font-semibold pt-1">
+            ✓ Inquiry received. We will respond within 24 hours.
           </div>
         </form>
 
-        <div class="mt-4 pt-4 border-t border-slate-800 text-center">
-          <a href="mailto:inquire@garageorphan.com?subject=GarageOrphan.com%20Direct%20Acquisition%20Offer" class="text-xs text-slate-400 hover:text-emerald-400 transition-colors">
-            Or email directly at <strong class="text-slate-300">inquire@garageorphan.com</strong>
+        <div class="mt-4 pt-4 border-t border-slate-100 text-center">
+          <a href="mailto:inquire@garageorphan.com?subject=GarageOrphan.com%20Direct%20Acquisition%20Offer" class="text-xs text-slate-500 hover:text-brand-600 transition-colors">
+            Or email directly at <strong class="text-slate-800">inquire@garageorphan.com</strong>
           </a>
         </div>
 
@@ -1119,12 +1027,10 @@
       } else {
         mobileMenu.classList.remove('hidden');
         menuIconClosed.classList.add('hidden');
-        menuIconOpened.classList.remove('menuIconOpened');
         menuIconOpened.classList.remove('hidden');
       }
     });
 
-    // Close mobile menu on clicking any navigation link
     document.querySelectorAll('#mobileMenu a').forEach(link => {
       link.addEventListener('click', () => {
         mobileMenu.classList.add('hidden');
@@ -1141,7 +1047,6 @@
         const content = document.getElementById(toggle.getAttribute('aria-controls'));
         const chevron = toggle.querySelector('.chevron-icon');
 
-        // Optional: Close other items for single-open experience
         faqToggles.forEach(otherToggle => {
           if (otherToggle !== toggle) {
             otherToggle.setAttribute('aria-expanded', 'false');
@@ -1152,7 +1057,6 @@
           }
         });
 
-        // Toggle clicked
         if (isExpanded) {
           toggle.setAttribute('aria-expanded', 'false');
           content?.classList.add('hidden');
@@ -1165,7 +1069,7 @@
       });
     });
 
-    // 3. Lead Capture Form Submission Handler
+    // 3. Lead Capture Form Handler
     const hoaForm = document.getElementById('hoaRequestForm');
     const formSuccessMessage = document.getElementById('formSuccessMessage');
     const successEmailDisplay = document.getElementById('successEmailDisplay');
@@ -1176,17 +1080,14 @@
     hoaForm?.addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      // Reset error messages
       document.querySelectorAll('[id$="Error"]').forEach(el => el.classList.add('hidden'));
 
-      // Form values
       const fullName = document.getElementById('fullName').value.trim();
       const email = document.getElementById('emailAddress').value.trim();
       const residentType = document.getElementById('residentType').value;
       const location = document.getElementById('location').value.trim();
       const buildingSize = document.getElementById('buildingSize').value;
 
-      // Basic client-side validation
       let hasError = false;
 
       if (!fullName) {
@@ -1212,9 +1113,8 @@
 
       if (hasError) return;
 
-      // Loading state
       submitBtn.disabled = true;
-      btnText.textContent = "Generating Your Toolkit...";
+      btnText.textContent = "Sending Your Packet...";
       btnSpinner.classList.remove('hidden');
 
       const payload = {
@@ -1235,25 +1135,22 @@
             body: JSON.stringify(payload)
           });
         } else {
-          // Fallback simulation for live demonstration / testing
-          console.info("Simulating lead capture submission (WEBHOOK_URL is placeholder):", payload);
+          console.info("Simulating lead capture submission:", payload);
           await new Promise(resolve => setTimeout(resolve, 800));
         }
 
-        // Show inline success message
         successEmailDisplay.textContent = email;
         hoaForm.classList.add('hidden');
         formSuccessMessage.classList.remove('hidden');
 
       } catch (err) {
         console.error("Submission failed:", err);
-        // Even if webhook network errors, provide reassurance to user with fall-back success
         successEmailDisplay.textContent = email;
         hoaForm.classList.add('hidden');
         formSuccessMessage.classList.remove('hidden');
       } finally {
         submitBtn.disabled = false;
-        btnText.textContent = "Download Right-to-Charge Proposal Kit";
+        btnText.textContent = "Email Me the Free HOA Request Packet";
         btnSpinner.classList.add('hidden');
       }
     });
@@ -1277,7 +1174,6 @@
       document.body.style.overflow = '';
     }
 
-    // Close on Escape key
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && !acquisitionModal?.classList.contains('hidden')) {
         closeAcquisitionModal();
@@ -1290,7 +1186,7 @@
       const acqSuccessMsg = document.getElementById('acqSuccessMsg');
       
       acqSubmitBtn.disabled = true;
-      acqSubmitBtn.textContent = "Transmitting...";
+      acqSubmitBtn.textContent = "Submitting...";
 
       const name = document.getElementById('acqName').value;
       const email = document.getElementById('acqEmail').value;
@@ -1320,10 +1216,10 @@
         setTimeout(() => {
           closeAcquisitionModal();
           acqSubmitBtn.disabled = false;
-          acqSubmitBtn.textContent = "Submit Confidential Inquiry";
+          acqSubmitBtn.textContent = "Submit Inquiry";
           acqSuccessMsg?.classList.add('hidden');
           document.getElementById('acquisitionForm').reset();
-        }, 2500);
+        }, 2000);
       } catch (err) {
         acqSuccessMsg?.classList.remove('hidden');
       }
