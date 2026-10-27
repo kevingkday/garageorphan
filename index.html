@@ -131,6 +131,7 @@
         <!-- Desktop Menu -->
         <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
           <a href="#gear" class="hover:text-brand-600 transition-colors">Charging Gear</a>
+          <a href="#news" class="hover:text-brand-600 transition-colors">News &amp; Policy</a>
           <a href="#request-kit" class="hover:text-brand-600 transition-colors">Free HOA Letter Template</a>
           <a href="#faq" class="hover:text-brand-600 transition-colors">Common Questions</a>
           <a href="#inquire" onclick="openAcquisitionModal()" class="hover:text-accent-600 transition-colors">Acquire Domain</a>
@@ -157,6 +158,7 @@
       <!-- Mobile Dropdown -->
       <div id="mobileMenu" class="hidden md:hidden py-4 border-t border-slate-100 space-y-2">
         <a href="#gear" class="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50 hover:text-brand-600">Charging Gear</a>
+        <a href="#news" class="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50 hover:text-brand-600">News &amp; Policy</a>
         <a href="#request-kit" class="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50 hover:text-brand-600">Free HOA Letter Template</a>
         <a href="#faq" class="block px-3 py-2 rounded-md text-base font-semibold text-slate-700 hover:bg-slate-50 hover:text-brand-600">Common Questions</a>
         <a href="#inquire" onclick="openAcquisitionModal()" class="block px-3 py-2 rounded-md text-base font-semibold text-accent-600 hover:bg-slate-50">Acquire Domain</a>
@@ -252,13 +254,13 @@
               Don't buy the wrong equipment. These are the cables, adapters, and safety locks tested for people who plug in outdoors or in shared parking lots.
             </p>
           </div>
-          <div class="mt-4 md:mt-0 text-xs font-semibold text-slate-500">
-            Updated: <span class="text-brand-600 font-bold">2026 Tested &amp; Recommended</span>
+          <div id="products-last-updated" class="mt-4 md:mt-0 text-xs font-semibold text-slate-500">
+            Updated: <span id="products-updated-date" class="text-brand-600 font-bold">2026 Tested &amp; Recommended</span>
           </div>
         </div>
 
         <!-- Product Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div id="products-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           <!-- Card 1: A2Z Typhoon Pro NACS to CCS Adapter -->
           <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
@@ -530,6 +532,53 @@
           </p>
         </div>
 
+      </div>
+    </section>
+
+    <!-- 3B. LATEST GARAGE ORPHAN NEWS & POLICY UPDATES -->
+    <section id="news" class="py-16 md:py-24 bg-slate-50/70 bg-light-grid border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+          <div>
+            <span class="inline-flex items-center px-2.5 py-1 rounded text-xs font-bold uppercase tracking-wider bg-brand-50 text-brand-700 border border-brand-200 mb-2">
+              Live Feed
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+              Garage Orphan News &amp; Policy Updates
+            </h2>
+            <p class="text-slate-600 text-base mt-2 max-w-2xl">
+              Curated updates on Right-to-Charge laws, curbside charging deployments, apartment EV rebates, and public fast-charging access.
+            </p>
+          </div>
+          <div id="news-last-updated" class="text-xs font-semibold text-slate-500 bg-white px-3.5 py-2 rounded-lg border border-slate-200 shadow-card self-start md:self-end hidden">
+            Updated: <span id="news-updated-date" class="text-brand-600 font-bold"></span>
+          </div>
+        </div>
+
+        <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Loading State -->
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-card animate-pulse">
+            <div class="h-4 bg-slate-200 rounded w-1/3 mb-4"></div>
+            <div class="h-6 bg-slate-200 rounded w-3/4 mb-3"></div>
+            <div class="h-6 bg-slate-200 rounded w-1/2 mb-5"></div>
+            <div class="h-16 bg-slate-100 rounded mb-6"></div>
+            <div class="h-4 bg-slate-200 rounded w-1/4"></div>
+          </div>
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-card animate-pulse hidden md:block">
+            <div class="h-4 bg-slate-200 rounded w-1/3 mb-4"></div>
+            <div class="h-6 bg-slate-200 rounded w-3/4 mb-3"></div>
+            <div class="h-6 bg-slate-200 rounded w-1/2 mb-5"></div>
+            <div class="h-16 bg-slate-100 rounded mb-6"></div>
+            <div class="h-4 bg-slate-200 rounded w-1/4"></div>
+          </div>
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-card animate-pulse hidden lg:block">
+            <div class="h-4 bg-slate-200 rounded w-1/3 mb-4"></div>
+            <div class="h-6 bg-slate-200 rounded w-3/4 mb-3"></div>
+            <div class="h-6 bg-slate-200 rounded w-1/2 mb-5"></div>
+            <div class="h-16 bg-slate-100 rounded mb-6"></div>
+            <div class="h-4 bg-slate-200 rounded w-1/4"></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -880,6 +929,7 @@
           <h5 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3">Resources</h5>
           <ul class="space-y-2 text-xs">
             <li><a href="#gear" class="hover:text-brand-600 transition-colors">Charging Gear Guide</a></li>
+            <li><a href="#news" class="hover:text-brand-600 transition-colors">News &amp; Policy Updates</a></li>
             <li><a href="#request-kit" class="hover:text-brand-600 transition-colors">Free Landlord / HOA Letter</a></li>
             <li><a href="#faq" class="hover:text-brand-600 transition-colors">Right-to-Charge FAQ</a></li>
             <li><a href="#inquire" onclick="openAcquisitionModal()" class="hover:text-accent-600 transition-colors">Acquire This Domain</a></li>
@@ -1210,6 +1260,174 @@
         acqSuccessMsg?.classList.remove('hidden');
       }
     }
+
+    // 5. Dynamic Products & News Feeds (GrokBot JSON integration)
+    const escapeHtml = (str) => {
+      const div = document.createElement('div');
+      div.textContent = str || '';
+      return div.innerHTML;
+    };
+
+    const formatDate = (dateStr) => {
+      if (!dateStr) return '';
+      const parsed = new Date(dateStr + 'T00:00:00');
+      if (isNaN(parsed)) return dateStr;
+      return parsed.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    };
+
+    const BADGE_STYLES = {
+      amber: 'bg-amber-100 text-amber-800',
+      brand: 'bg-brand-100 text-brand-800',
+      emerald: 'bg-emerald-100 text-emerald-800',
+      rose: 'bg-rose-100 text-rose-800',
+      blue: 'bg-blue-100 text-blue-800',
+      purple: 'bg-purple-100 text-purple-800',
+      slate: 'bg-slate-100 text-slate-800'
+    };
+
+    const PRODUCT_ICONS = {
+      adapter: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>',
+      charger: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>',
+      cord: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>',
+      lock: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>',
+      ramp: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0zM13 16V6a1 1 0 00-1-1H4"/>',
+      cover: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"/>',
+      shield: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>',
+      battery: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 7h15a2 2 0 012 2v6a2 2 0 01-2 2H3a2 2 0 01-2-2V9a2 2 0 012-2zm18 3v4"/>'
+    };
+
+    // Load products.json
+    document.addEventListener('DOMContentLoaded', async () => {
+      const productsGrid = document.getElementById('products-grid');
+      const productsUpdatedEl = document.getElementById('products-updated-date');
+      if (!productsGrid) return;
+
+      try {
+        const response = await fetch('products.json', { cache: 'no-cache' });
+        if (!response.ok) throw new Error('Failed to load products.json');
+        const data = await response.json();
+
+        if (data.lastUpdated && productsUpdatedEl) {
+          productsUpdatedEl.textContent = formatDate(data.lastUpdated);
+        }
+
+        const products = (Array.isArray(data.products) ? data.products : []).filter(p => p && p.enabled !== false);
+        if (products.length === 0) return;
+
+        productsGrid.innerHTML = products.map(product => {
+          const badgeClass = BADGE_STYLES[product.badgeStyle] || BADGE_STYLES.brand;
+          const iconPath = PRODUCT_ICONS[product.icon] || PRODUCT_ICONS.charger;
+          const features = Array.isArray(product.features) ? product.features : [];
+          const description = product.summary || product.description || '';
+          const linkUrl = (product.affiliateUrl && product.affiliateUrl.trim())
+            || (product.amazonUrl && product.amazonUrl.trim())
+            || ('https://www.amazon.com/s?k=' + encodeURIComponent(product.title || 'EV charger accessory'));
+
+          return `
+            <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-4">
+                  <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold ${badgeClass}">
+                    ${escapeHtml(product.badge || '★ Recommended')}
+                  </span>
+                  <span class="text-xs font-mono font-medium text-slate-500">${escapeHtml(product.spec || 'EV Gear')}</span>
+                </div>
+
+                <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                  <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    ${iconPath}
+                  </svg>
+                </div>
+
+                <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
+                  ${escapeHtml(product.title)}
+                </h3>
+                <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                  ${escapeHtml(description)}
+                </p>
+
+                ${features.length > 0 ? `
+                  <ul class="mt-4 space-y-2 text-xs font-medium text-slate-700">
+                    ${features.map(feat => `
+                      <li class="flex items-center gap-2">
+                        <span class="text-brand-600 font-bold">✓</span>
+                        <span>${escapeHtml(feat)}</span>
+                      </li>
+                    `).join('')}
+                  </ul>
+                ` : ''}
+              </div>
+
+              <div class="mt-6 pt-4 border-t border-slate-100">
+                <a href="${escapeHtml(linkUrl)}" target="_blank" rel="nofollow sponsored noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-xs font-bold text-white bg-slate-900 hover:bg-brand-600 shadow-sm transition-colors">
+                  <span>Check Price on Amazon</span>
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                </a>
+              </div>
+            </div>
+          `;
+        }).join('');
+      } catch (err) {
+        console.error('Error loading products.json (falling back to static gear cards):', err);
+      }
+    });
+
+    // Load news.json
+    document.addEventListener('DOMContentLoaded', async () => {
+      const newsGrid = document.getElementById('news-grid');
+      const updatedContainer = document.getElementById('news-last-updated');
+      const updatedDateEl = document.getElementById('news-updated-date');
+      if (!newsGrid) return;
+
+      try {
+        const response = await fetch('news.json', { cache: 'no-cache' });
+        if (!response.ok) throw new Error('Failed to load news.json');
+        const data = await response.json();
+
+        if (data.lastUpdated && updatedContainer && updatedDateEl) {
+          updatedDateEl.textContent = formatDate(data.lastUpdated);
+          updatedContainer.classList.remove('hidden');
+        }
+
+        const articles = Array.isArray(data.articles) ? data.articles.slice(0, 6) : [];
+        if (articles.length === 0) {
+          newsGrid.innerHTML = '<p class="text-slate-600 col-span-3">No recent news articles available at this time.</p>';
+          return;
+        }
+
+        newsGrid.innerHTML = articles.map(article => `
+          <article class="bg-white p-6 rounded-2xl border border-slate-200 shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 flex flex-col justify-between group">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-brand-50 text-brand-700 border border-brand-200">
+                  ${escapeHtml(article.category || 'Urban EV News')}
+                </span>
+                <time class="text-xs font-mono text-slate-500 font-medium">${escapeHtml(formatDate(article.date))}</time>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 mb-2.5 group-hover:text-brand-600 transition-colors leading-snug">
+                <a href="${escapeHtml(article.url || '#')}" target="_blank" rel="noopener noreferrer">
+                  ${escapeHtml(article.title)}
+                </a>
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                ${escapeHtml(article.summary)}
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500">${escapeHtml(article.source || 'Source')}</span>
+              <a href="${escapeHtml(article.url || '#')}" target="_blank" rel="noopener noreferrer"
+                class="text-brand-600 hover:text-brand-700 text-xs font-bold inline-flex items-center gap-1.5 group-hover:gap-2 transition-all">
+                <span>Read Article</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+              </a>
+            </div>
+          </article>
+        `).join('');
+      } catch (err) {
+        console.error('Error loading news.json:', err);
+        newsGrid.innerHTML = '<p class="text-slate-600 col-span-3">Unable to load latest news right now.</p>';
+      }
+    });
   </script>
 </body>
 </html>

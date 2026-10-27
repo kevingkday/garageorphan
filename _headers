@@ -7,3 +7,9 @@
 
 /index.html
   Cache-Control: public, max-age=3600, must-revalidate
+
+/news.json
+  Cache-Control: public, max-age=300, must-revalidate
+
+/products.json
+  Cache-Control: public, max-age=300, must-revalidate
