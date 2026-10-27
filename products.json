@@ -1,0 +1,158 @@
+{
+  "lastUpdated": "2026-10-27",
+  "products": [
+    {
+      "id": "a2z-typhoon-pro-nacs-to-ccs-adapter",
+      "title": "A2Z Typhoon Pro NACS to CCS Adapter",
+      "badge": "★ Most Useful",
+      "badgeStyle": "amber",
+      "spec": "Universal Access",
+      "icon": "adapter",
+      "summary": "Lets you plug any EV into Tesla Superchargers and public fast-charging stations. You'll never get stuck with the wrong plug when you need a quick top-up.",
+      "features": [
+        "Unlocks 15,000+ Tesla Supercharger stations",
+        "Automatic heat shutoff sensors for safety"
+      ],
+      "asin": "",
+      "amazonUrl": "https://www.amazon.com/s?k=A2Z+Typhoon+Pro+NACS+to+CCS+Adapter",
+      "affiliateUrl": "https://link.amazon/B04jLVi1o",
+      "dateAdded": "2026-09-23"
+    },
+    {
+      "id": "lectron-level-1-level-2-portable-charger",
+      "title": "Lectron Level 1 / Level 2 Portable Charger",
+      "badge": "⚡ Plugs In Anywhere",
+      "badgeStyle": "brand",
+      "spec": "120V & 240V",
+      "icon": "charger",
+      "summary": "Keep this in your trunk. It plugs into any regular 120V outdoor wall socket, or into a heavy-duty 240V dryer plug when visiting friends or family.",
+      "features": [
+        "Weatherproof waterproof control box",
+        "Long 25-foot cord reaches distant outlets"
+      ],
+      "asin": "",
+      "amazonUrl": "https://www.amazon.com/s?k=Lectron+Level+1+Level+2+Portable+EV+Charger",
+      "affiliateUrl": "https://link.amazon/B0dqfD9Xw",
+      "dateAdded": "2026-09-23"
+    },
+    {
+      "id": "10-3-outdoor-extension-cord-50-ft",
+      "title": "10/3 Outdoor Extension Cord 50 ft",
+      "badge": "🔥 Won't Overheat",
+      "badgeStyle": "amber",
+      "spec": "10 AWG Copper",
+      "icon": "cord",
+      "summary": "Cheap orange household cords get dangerously hot and trip your car's safety sensors. This extra-thick 10-gauge pure copper cord stays cool all night.",
+      "features": [
+        "Continuous overnight draw rated",
+        "Cold-weather jacket stays flexible in snow"
+      ],
+      "asin": "",
+      "amazonUrl": "https://www.amazon.com/s?k=10%2F3+Outdoor+Extension+Cord+50+ft",
+      "affiliateUrl": "https://link.amazon/B0cCq8gx0",
+      "dateAdded": "2026-09-23"
+    },
+    {
+      "id": "ev-charger-lock-ring-j1772",
+      "title": "EV Charger Lock Ring J1772",
+      "badge": "🔒 Anti-Theft",
+      "badgeStyle": "rose",
+      "spec": "Street Security",
+      "icon": "lock",
+      "summary": "Prevents strangers from unplugging your car or stealing your charging cord overnight. Locks the handle to your car and clamps the cable under your tire.",
+      "features": [
+        "Weatherproof combination padlock included",
+        "Fits standard J1772 and Tesla adapters"
+      ],
+      "asin": "",
+      "amazonUrl": "https://www.amazon.com/s?k=EV+Charger+Lock+Ring+J1772",
+      "affiliateUrl": "https://link.amazon/B0a1dwJbh",
+      "dateAdded": "2026-09-23"
+    },
+    {
+      "id": "1-channel-heavy-duty-rubber-cable-protector-ramp",
+      "title": "1 Channel Heavy Duty Rubber Cable Protector Ramp",
+      "badge": "🚶 Protects Walkers",
+      "badgeStyle": "blue",
+      "spec": "Trip-Proof",
+      "icon": "ramp",
+      "summary": "If you run a cable across a public sidewalk from your front porch to your street-parked car, this rubber ramp prevents neighbor complaints and trip hazards.",
+      "features": [
+        "High-visibility bright yellow safety stripes",
+        "Heavy enough that strollers and bikes roll right over"
+      ],
+      "asin": "",
+      "amazonUrl": "https://www.amazon.com/s?k=1+Channel+Heavy+Duty+Rubber+Cable+Protector+Ramp",
+      "affiliateUrl": "https://link.amazon/B02wLgt1x",
+      "dateAdded": "2026-09-23"
+    },
+    {
+      "id": "taymac-extra-duty-weatherproof-in-use-cover",
+      "title": "TayMac Extra Duty Weatherproof In-Use Cover",
+      "badge": "🌧️ Weatherproof",
+      "badgeStyle": "emerald",
+      "spec": "Lockable",
+      "icon": "cover",
+      "summary": "Protects outdoor shared wall sockets from heavy rain, snow, and ice while your charger is plugged in. Can be padlocked so neighbors can't disconnect you.",
+      "features": [
+        "Extra-deep cavity fits thick charging plugs",
+        "Meets electrical code for outdoor wet locations"
+      ],
+      "asin": "",
+      "amazonUrl": "https://www.amazon.com/s?k=TayMac+Extra+Duty+Weatherproof+In-Use+Cover",
+      "affiliateUrl": "https://link.amazon/B03IMlXWE",
+      "dateAdded": "2026-09-23"
+    },
+    {
+      "id": "lectron-tesla-to-j1772-charging-adapter",
+      "title": "Lectron Tesla to J1772 Level 2 Adapter (48A)",
+      "badge": "🔌 Destination Adapter",
+      "badgeStyle": "purple",
+      "spec": "NACS to J1772 (L2)",
+      "icon": "adapter",
+      "summary": "Lets any J1772 electric car plug into Tesla Wall Connectors, hotel Destination Chargers, and shared neighbor driveway chargers. A game-changer for renters who borrow a neighbor's Tesla charger or rely on hotel and workplace plugs.",
+      "features": [
+        "Supports up to 48A and 250V Level 2 AC charging",
+        "Compact glovebox size unlocks thousands of Level 2 plugs"
+      ],
+      "asin": "B09M69VV3W",
+      "amazonUrl": "https://www.amazon.com/dp/B09M69VV3W",
+      "affiliateUrl": "",
+      "dateAdded": "2026-10-27"
+    },
+    {
+      "id": "magnetic-weatherproof-ev-charge-port-snow-cover",
+      "title": "Magnetic Weatherproof EV Charge Port Snow & Ice Cover",
+      "badge": "❄️ Winter Essential",
+      "badgeStyle": "blue",
+      "spec": "All-Weather Shield",
+      "icon": "shield",
+      "summary": "Seals over your charging port with dual magnetic strips and a drawstring closure so freezing rain, slush, and snow never jam your outdoor plug. Essential for street-parked EVs charging overnight in winter weather.",
+      "features": [
+        "Dual magnetic strips grip steel body panels tightly in high wind",
+        "Waterproof fabric prevents frozen charge port doors and latches"
+      ],
+      "asin": "B09THTQJ6R",
+      "amazonUrl": "https://www.amazon.com/dp/B09THTQJ6R",
+      "affiliateUrl": "",
+      "dateAdded": "2026-10-27"
+    },
+    {
+      "id": "noco-boost-plus-gb40-12v-lithium-jump-starter",
+      "title": "NOCO Boost Plus GB40 12V Lithium Jump Starter",
+      "badge": "🔋 12V Rescue",
+      "badgeStyle": "slate",
+      "spec": "12V Emergency",
+      "icon": "battery",
+      "summary": "Even with a full main battery, an EV won't unlock or shift into drive if its small 12V accessory battery dies in cold street parking. Keep this compact booster in your frunk or glovebox to revive a dead 12V battery in seconds without waiting for a tow.",
+      "features": [
+        "Spark-proof clamps with reverse polarity protection for safe solo jumps",
+        "Doubles as a USB power bank and 100-lumen emergency LED flashlight"
+      ],
+      "asin": "B015TKUPIC",
+      "amazonUrl": "https://www.amazon.com/dp/B015TKUPIC",
+      "affiliateUrl": "",
+      "dateAdded": "2026-10-27"
+    }
+  ]
+}

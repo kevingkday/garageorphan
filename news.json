@@ -1,0 +1,53 @@
+{
+  "lastUpdated": "2026-10-27",
+  "articles": [
+    {
+      "title": "Seattle plans 200 curbside EV charging stations – and you can request one",
+      "date": "2026-10-22",
+      "source": "Electrek",
+      "category": "Curbside Charging",
+      "summary": "Seattle City Light and SDOT have opened resident applications for up to 200 new public curbside Level 2 chargers priced at $0.21/kWh, prioritizing neighborhoods dominated by apartments and street parking. Apartment renters and street-parked EV owners can now request a charger directly on their block through fall 2027.",
+      "url": "https://electrek.co/2026/10/22/seattle-plans-200-curbside-ev-charging-stations-and-you-can-request-one/"
+    },
+    {
+      "title": "PDC approves expansion of curbside EV charging, prioritizes neighborhoods with taxi and rideshare drivers",
+      "date": "2026-10-20",
+      "source": "Citizen Portal",
+      "category": "Curbside Charging",
+      "summary": "New York City's Public Design Commission unanimously approved a citywide rollout of roughly 600 new Level 2 curbside EV charging plugs operated by It's Electric. The expansion specifically targets high-density residential neighborhoods where apartment dwellers and rideshare drivers lack off-street parking.",
+      "url": "https://citizenportal.ai/articles/11348747/new-york/new-york-county/new-york-city/new-york-city-public-design-commission/pdc-approves-expansion-of-curbside-ev-charging-prioritizes-neighborhoods-with-taxi-and-rideshare-drivers"
+    },
+    {
+      "title": "Tesla opens four California V4 Supercharger sites with CCS1 cables, including 31 stalls in Long Beach",
+      "date": "2026-10-20",
+      "source": "ChargerFeed",
+      "category": "Charging Networks",
+      "summary": "Tesla has opened four high-capacity V4 Supercharger hubs in Long Beach, Campbell, San Marcos, and San Ramon equipped with both NACS (J3400) and built-in CCS1 connectors. EV drivers without home charging can plug in any CCS1 or NACS electric car at these 99 new fast-charging stalls without needing an adapter.",
+      "url": "https://chargerfeed.com/article/tesla-v4-superchargers-ccs1-long-beach-campbell-san-marcos-san-ramon-october-2026"
+    },
+    {
+      "title": "NSW Right to Charge Law Passes for Apartment EV Owners",
+      "date": "2026-10-16",
+      "source": "Zecar",
+      "category": "Right-to-Charge Laws",
+      "summary": "New South Wales Parliament passed landmark right-to-charge reforms under the Strata Schemes Legislation Amendment Bill, barring apartment strata committees from unreasonably blocking resident EV charger installations. Committees now have a strict three-month deadline to respond to a resident's installation notice or approval is granted automatically.",
+      "url": "https://zecar.com/reviews/nsw-right-to-charge-law-passes-parliament"
+    },
+    {
+      "title": "The District Launches Multifamily Electric Vehicle Charging Assistance Program",
+      "date": "2026-10-15",
+      "source": "DC Department of Energy & Environment",
+      "category": "Apartment Charging",
+      "summary": "Washington, DC launched a $1 million Multifamily EV Charging Assistance Program with Catalyst Mobility to fund Level 1 and Level 2 chargers at or within a quarter-mile of apartment and condo buildings. The program covers up to 80% of installation costs for publicly accessible stations and up to 60% for resident-only apartment parking lots.",
+      "url": "https://doee.dc.gov/release/district-launches-multifamily-electric-vehicle-charging-assistance-program"
+    },
+    {
+      "title": "A charging network built around CCS plugs is adding 500 Tesla style connectors by year end",
+      "date": "2026-10-13",
+      "source": "GCN",
+      "category": "Charging Networks",
+      "summary": "EVgo is accelerating its native NACS (SAE J3400) connector rollout to exceed 500 stalls across more than 25 states by the end of 2026, targeting major urban metro areas including Chicago, San Francisco, Dallas, and Austin. For city EV drivers relying on public fast chargers, dual-connector stations mean both NACS and CCS vehicles can fast-charge without carrying extra adapters.",
+      "url": "https://gcn.com/charging-network-built-around-ccs-plugs/22399/"
+    }
+  ]
+}
