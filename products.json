@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27",
+  "lastUpdated": "2026-11-01",
   "products": [
     {
       "id": "a2z-typhoon-pro-nacs-to-ccs-adapter",
@@ -153,6 +153,40 @@
       "amazonUrl": "https://www.amazon.com/dp/B015TKUPIC",
       "affiliateUrl": "",
       "dateAdded": "2026-10-27"
+    },
+    {
+      "id": "lectron-j1772-to-tesla-nacs-adapter-80a",
+      "title": "Lectron J1772 to Tesla (NACS) Adapter 80A",
+      "badge": "🔌 Public L2 Adapter",
+      "badgeStyle": "purple",
+      "spec": "J1772 to NACS (L2)",
+      "icon": "adapter",
+      "summary": "If your EV has a Tesla-style NACS port, this adapter lets you plug into the standard J1772 Level 2 chargers found in apartment garages, curbside programs, and workplace lots. It keeps shared and municipal chargers usable as more new EVs switch to NACS ports.",
+      "features": [
+        "Rated up to 80A at 240V for full-speed Level 2 charging",
+        "Pocket-size adapter that stays in the glovebox"
+      ],
+      "asin": "B0DFH43NYN",
+      "amazonUrl": "https://www.amazon.com/dp/B0DFH43NYN",
+      "affiliateUrl": "",
+      "dateAdded": "2026-11-01"
+    },
+    {
+      "id": "xtremeauto-ev-charging-cable-storage-bag",
+      "title": "Xtremeauto Waterproof EV Charging Cable Storage Bag",
+      "badge": "🧰 Trunk Organizer",
+      "badgeStyle": "slate",
+      "spec": "1680D Waterproof",
+      "icon": "cord",
+      "summary": "Street-parked and apartment EV drivers haul their portable charger and cords around every day, often wet or muddy from the curb. This waterproof bag keeps the cable coiled, contained, and off your trunk carpet.",
+      "features": [
+        "Holds up to 26 m of charging cable",
+        "Tough waterproof 1680D fabric shrugs off rain and slush"
+      ],
+      "asin": "B0CR4B1GMZ",
+      "amazonUrl": "https://www.amazon.com/dp/B0CR4B1GMZ",
+      "affiliateUrl": "",
+      "dateAdded": "2026-11-01"
     }
   ]
 }
