@@ -1,53 +1,53 @@
 {
-  "lastUpdated": "2026-10-27",
+  "lastUpdated": "2026-11-01",
   "articles": [
     {
-      "title": "Seattle plans 200 curbside EV charging stations – and you can request one",
-      "date": "2026-10-22",
-      "source": "Electrek",
-      "category": "Curbside Charging",
-      "summary": "Seattle City Light and SDOT have opened resident applications for up to 200 new public curbside Level 2 chargers priced at $0.21/kWh, prioritizing neighborhoods dominated by apartments and street parking. Apartment renters and street-parked EV owners can now request a charger directly on their block through fall 2027.",
-      "url": "https://electrek.co/2026/10/22/seattle-plans-200-curbside-ev-charging-stations-and-you-can-request-one/"
-    },
-    {
-      "title": "PDC approves expansion of curbside EV charging, prioritizes neighborhoods with taxi and rideshare drivers",
-      "date": "2026-10-20",
-      "source": "Citizen Portal",
-      "category": "Curbside Charging",
-      "summary": "New York City's Public Design Commission unanimously approved a citywide rollout of roughly 600 new Level 2 curbside EV charging plugs operated by It's Electric. The expansion specifically targets high-density residential neighborhoods where apartment dwellers and rideshare drivers lack off-street parking.",
-      "url": "https://citizenportal.ai/articles/11348747/new-york/new-york-county/new-york-city/new-york-city-public-design-commission/pdc-approves-expansion-of-curbside-ev-charging-prioritizes-neighborhoods-with-taxi-and-rideshare-drivers"
-    },
-    {
-      "title": "Tesla opens four California V4 Supercharger sites with CCS1 cables, including 31 stalls in Long Beach",
-      "date": "2026-10-20",
-      "source": "ChargerFeed",
+      "title": "Rivian Adventure Network Adds 10 Sites, 112 Stalls: Q3 2026 Report",
+      "date": "2026-10-30",
+      "source": "EVChargingStations.com",
       "category": "Charging Networks",
-      "summary": "Tesla has opened four high-capacity V4 Supercharger hubs in Long Beach, Campbell, San Marcos, and San Ramon equipped with both NACS (J3400) and built-in CCS1 connectors. EV drivers without home charging can plug in any CCS1 or NACS electric car at these 99 new fast-charging stalls without needing an adapter.",
-      "url": "https://chargerfeed.com/article/tesla-v4-superchargers-ccs1-long-beach-campbell-san-marcos-san-ramon-october-2026"
+      "summary": "Rivian's fast-charging network grew to 165 sites and 1,185 stalls in Q3, and nearly 98% of its sites are now open to non-Rivian EVs, with NACS plugs at about 59% of locations. For drivers who rely on public fast charging, that's another large, highly rated network they can use without owning a Rivian.",
+      "url": "https://evchargingstations.com/chargingnews/rivian-adventure-network-q3-2026/"
     },
     {
-      "title": "NSW Right to Charge Law Passes for Apartment EV Owners",
-      "date": "2026-10-16",
-      "source": "Zecar",
-      "category": "Right-to-Charge Laws",
-      "summary": "New South Wales Parliament passed landmark right-to-charge reforms under the Strata Schemes Legislation Amendment Bill, barring apartment strata committees from unreasonably blocking resident EV charger installations. Committees now have a strict three-month deadline to respond to a resident's installation notice or approval is granted automatically.",
-      "url": "https://zecar.com/reviews/nsw-right-to-charge-law-passes-parliament"
-    },
-    {
-      "title": "The District Launches Multifamily Electric Vehicle Charging Assistance Program",
-      "date": "2026-10-15",
-      "source": "DC Department of Energy & Environment",
+      "title": "ARENA backs Alchemy Charge with $2 million to unlock home EV charging for apartment residents",
+      "date": "2026-10-28",
+      "source": "Alchemy Charge",
       "category": "Apartment Charging",
-      "summary": "Washington, DC launched a $1 million Multifamily EV Charging Assistance Program with Catalyst Mobility to fund Level 1 and Level 2 chargers at or within a quarter-mile of apartment and condo buildings. The program covers up to 80% of installation costs for publicly accessible stations and up to 60% for resident-only apartment parking lots.",
-      "url": "https://doee.dc.gov/release/district-launches-multifamily-electric-vehicle-charging-assistance-program"
+      "summary": "Australia's renewable energy agency is co-funding a $7.4 million national Strata Assist program to tackle the approval, installation, and cost hurdles that stall apartment charging projects. Its digital platform, due February 2027, gives residents, landlords, and strata managers one shared path to quotes and approvals.",
+      "url": "https://www.alchemycharge.com.au/documents/strata-assist-media-release-28-october-2026.pdf"
     },
     {
-      "title": "A charging network built around CCS plugs is adding 500 Tesla style connectors by year end",
-      "date": "2026-10-13",
-      "source": "GCN",
+      "title": "Tesla Supercharger Prices Are Up 15% in the Last Year",
+      "date": "2026-10-23",
+      "source": "Not a Tesla App",
       "category": "Charging Networks",
-      "summary": "EVgo is accelerating its native NACS (SAE J3400) connector rollout to exceed 500 stalls across more than 25 states by the end of 2026, targeting major urban metro areas including Chicago, San Francisco, Dallas, and Austin. For city EV drivers relying on public fast chargers, dual-connector stations mean both NACS and CCS vehicles can fast-charge without carrying extra adapters.",
-      "url": "https://gcn.com/charging-network-built-around-ccs-plugs/22399/"
+      "summary": "Non-member Supercharging in the US now averages about $0.569/kWh, up 15% in a year, while members pay Tesla-owner rates averaging about $0.396/kWh. Drivers without home charging who Supercharge often should check whether a membership pays for itself.",
+      "url": "https://www.notateslaapp.com/news/4885/tesla-supercharger-prices-are-up-15-in-the-last-year"
+    },
+    {
+      "title": "Making regional EV charging easier with pole-mounted chargers",
+      "date": "2026-10-22",
+      "source": "Wagga Wagga City Council",
+      "category": "Curbside Charging",
+      "summary": "Five EV chargers have been mounted on existing utility poles across Wagga Wagga's CBD in an ARENA-funded kerbside charging trial with EVX and Essential Energy. Reusing poles already on the street is a fast, low-cost way to give drivers without driveways a place to plug in.",
+      "url": "https://news.wagga.nsw.gov.au/news-articles/2026/october-2026/making-regional-ev-charging-easier-with-pole-mounted-chargers"
+    },
+    {
+      "title": "Expanding electric vehicle charging access for tenants and leaseholders",
+      "date": "2026-10-21",
+      "source": "GOV.UK",
+      "category": "Right-to-Charge Laws",
+      "summary": "The UK government opened a consultation on an 'ability to charge' that would require landlords and freeholders to give tenants and leaseholders timely permission to install charge points at their off-street spaces. It's a step toward right-to-charge protections for renters and flat owners, alongside existing grants of up to £500.",
+      "url": "https://www.gov.uk/government/consultations/expanding-electric-vehicle-charging-access-for-tenants-and-leaseholders/expanding-electric-vehicle-charging-access-for-tenants-and-leaseholders"
+    },
+    {
+      "title": "A parking giant with 5,700 sites is taking on apartment EV charging",
+      "date": "2026-10-20",
+      "source": "Electrek",
+      "category": "Apartment Charging",
+      "summary": "LAZ Parking and EverCharge launched a multifamily charging service that shares a building's existing power across cars, supporting up to five times as many ports without a costly electrical upgrade. That removes one of the biggest reasons apartment and condo buildings say no to resident chargers.",
+      "url": "https://electrek.co/2026/10/20/a-parking-giant-with-5700-sites-is-taking-on-apartment-ev-charging/"
     }
   ]
 }
