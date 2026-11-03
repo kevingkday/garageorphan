@@ -1322,6 +1322,31 @@
           const linkUrl = (product.affiliateUrl && product.affiliateUrl.trim())
             || (product.amazonUrl && product.amazonUrl.trim())
             || ('https://www.amazon.com/s?k=' + encodeURIComponent(product.title || 'EV charger accessory'));
+          const imageSrc = (typeof product.image === 'string' && /^https?:\/\//i.test(product.image.trim()))
+            ? product.image.trim()
+            : '';
+          const imageAlt = (product.imageAlt && String(product.imageAlt).trim()) || product.title || '';
+          const iconSvg = `
+            <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              ${iconPath}
+            </svg>
+          `;
+          const imageBox = imageSrc
+            ? `
+                <div class="relative w-full h-40 rounded-xl bg-slate-50 border border-slate-200 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                  <a href="${escapeHtml(linkUrl)}" target="_blank" rel="nofollow sponsored noopener" class="absolute inset-0 flex items-center justify-center p-4">
+                    <img src="${escapeHtml(imageSrc)}" loading="lazy" referrerpolicy="no-referrer" alt="${escapeHtml(imageAlt)}" class="max-h-full max-w-full object-contain" onerror="this.classList.add('hidden');var icon=this.nextElementSibling;if(icon)icon.classList.remove('hidden');">
+                    <svg class="w-16 h-16 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      ${iconPath}
+                    </svg>
+                  </a>
+                </div>
+              `
+            : `
+                <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
+                  ${iconSvg}
+                </div>
+              `;
 
           return `
             <div class="bg-white rounded-2xl border border-slate-200 p-6 flex flex-col justify-between shadow-card hover:shadow-card-hover hover:border-brand-500 transition-all duration-200 group">
@@ -1333,11 +1358,7 @@
                   <span class="text-xs font-mono font-medium text-slate-500">${escapeHtml(product.spec || 'EV Gear')}</span>
                 </div>
 
-                <div class="w-full h-40 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-4 mb-5 text-slate-400 group-hover:text-brand-600 transition-colors">
-                  <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    ${iconPath}
-                  </svg>
-                </div>
+                ${imageBox}
 
                 <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
                   ${escapeHtml(product.title)}
