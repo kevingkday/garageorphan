@@ -8,14 +8,16 @@
       "badgeStyle": "amber",
       "spec": "Universal Access",
       "icon": "adapter",
-      "summary": "Lets you plug any EV into Tesla Superchargers and public fast-charging stations. You'll never get stuck with the wrong plug when you need a quick top-up.",
+      "summary": "Opens up compatible Tesla Supercharger stations and public fast-charging plugs. You'll never get stuck with the wrong plug when you need a quick top-up.",
       "features": [
-        "Unlocks 15,000+ Tesla Supercharger stations",
+        "Opens up compatible Tesla Supercharger stations",
         "Automatic heat shutoff sensors for safety"
       ],
-      "asin": "",
-      "amazonUrl": "https://www.amazon.com/s?k=A2Z+Typhoon+Pro+NACS+to+CCS+Adapter",
-      "affiliateUrl": "https://link.amazon/B04jLVi1o",
+      "asin": "B0DDCX4V6F",
+      "amazonUrl": "https://www.amazon.com/dp/B0DDCX4V6F",
+      "affiliateUrl": "https://www.amazon.com/dp/B0DDCX4V6F?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/51c6T1k2L9L._AC_SL1254_.jpg",
+      "imageAlt": "A2Z Typhoon Pro NACS to CCS1 fast-charging adapter",
       "dateAdded": "2026-09-23"
     },
     {
@@ -28,11 +30,13 @@
       "summary": "Keep this in your trunk. It plugs into any regular 120V outdoor wall socket, or into a heavy-duty 240V dryer plug when visiting friends or family.",
       "features": [
         "Weatherproof waterproof control box",
-        "Long 25-foot cord reaches distant outlets"
+        "16-foot cord reaches nearby outlets"
       ],
-      "asin": "",
-      "amazonUrl": "https://www.amazon.com/s?k=Lectron+Level+1+Level+2+Portable+EV+Charger",
-      "affiliateUrl": "https://link.amazon/B0dqfD9Xw",
+      "asin": "B0DC6HS15W",
+      "amazonUrl": "https://www.amazon.com/dp/B0DC6HS15W",
+      "affiliateUrl": "https://www.amazon.com/dp/B0DC6HS15W?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/71u8lZtO5mL._AC_SL1500_.jpg",
+      "imageAlt": "Lectron Level 1 and Level 2 portable EV charger with dual plugs",
       "dateAdded": "2026-09-23"
     },
     {
@@ -47,26 +51,30 @@
         "Continuous overnight draw rated",
         "Cold-weather jacket stays flexible in snow"
       ],
-      "asin": "",
-      "amazonUrl": "https://www.amazon.com/s?k=10%2F3+Outdoor+Extension+Cord+50+ft",
-      "affiliateUrl": "https://link.amazon/B0cCq8gx0",
+      "asin": "B07SG1FRHT",
+      "amazonUrl": "https://www.amazon.com/dp/B07SG1FRHT",
+      "affiliateUrl": "https://www.amazon.com/dp/B07SG1FRHT?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/81pI3zDjLWL._AC_SL1500_.jpg",
+      "imageAlt": "50 ft yellow 10-gauge outdoor extension cord",
       "dateAdded": "2026-09-23"
     },
     {
       "id": "ev-charger-lock-ring-j1772",
-      "title": "EV Charger Lock Ring J1772",
+      "title": "MELBLU J1772-to-Tesla Adapter Lock (2-Pack)",
       "badge": "🔒 Anti-Theft",
       "badgeStyle": "rose",
       "spec": "Street Security",
       "icon": "lock",
-      "summary": "Prevents strangers from unplugging your car or stealing your charging cord overnight. Locks the handle to your car and clamps the cable under your tire.",
+      "summary": "Locks a J1772 adapter onto the Tesla charge port so it can't be pulled off while the car is charging.",
       "features": [
-        "Weatherproof combination padlock included",
-        "Fits standard J1772 and Tesla adapters"
+        "Holds the J1772-to-Tesla adapter on the port during a charge",
+        "2-pack, so a spare can stay in the glovebox"
       ],
-      "asin": "",
-      "amazonUrl": "https://www.amazon.com/s?k=EV+Charger+Lock+Ring+J1772",
-      "affiliateUrl": "https://link.amazon/B0a1dwJbh",
+      "asin": "B0CJ4FP8P2",
+      "amazonUrl": "https://www.amazon.com/dp/B0CJ4FP8P2",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CJ4FP8P2?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/71mHGcCvtYL._AC_SL1500_.jpg",
+      "imageAlt": "J1772 charging adapter lock ring",
       "dateAdded": "2026-09-23"
     },
     {
@@ -81,9 +89,11 @@
         "High-visibility bright yellow safety stripes",
         "Heavy enough that strollers and bikes roll right over"
       ],
-      "asin": "",
-      "amazonUrl": "https://www.amazon.com/s?k=1+Channel+Heavy+Duty+Rubber+Cable+Protector+Ramp",
-      "affiliateUrl": "https://link.amazon/B02wLgt1x",
+      "asin": "B0797G6XM6",
+      "amazonUrl": "https://www.amazon.com/dp/B0797G6XM6",
+      "affiliateUrl": "https://www.amazon.com/dp/B0797G6XM6?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/51VEaEiRA4L._AC_SL1500_.jpg",
+      "imageAlt": "Black and yellow 1-channel rubber cable protector ramp",
       "dateAdded": "2026-09-23"
     },
     {
@@ -98,9 +108,11 @@
         "Extra-deep cavity fits thick charging plugs",
         "Meets electrical code for outdoor wet locations"
       ],
-      "asin": "",
-      "amazonUrl": "https://www.amazon.com/s?k=TayMac+Extra+Duty+Weatherproof+In-Use+Cover",
-      "affiliateUrl": "https://link.amazon/B03IMlXWE",
+      "asin": "B00JU532B0",
+      "amazonUrl": "https://www.amazon.com/dp/B00JU532B0",
+      "affiliateUrl": "https://www.amazon.com/dp/B00JU532B0?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/51I9COTCo1L._AC_SL1017_.jpg",
+      "imageAlt": "TayMac clear extra-duty weatherproof in-use outlet cover",
       "dateAdded": "2026-09-23"
     },
     {
@@ -115,9 +127,11 @@
         "Supports up to 48A and 250V Level 2 AC charging",
         "Compact glovebox size unlocks thousands of Level 2 plugs"
       ],
-      "asin": "B09M69VV3W",
-      "amazonUrl": "https://www.amazon.com/dp/B09M69VV3W",
-      "affiliateUrl": "",
+      "asin": "B09M6KFV9T",
+      "amazonUrl": "https://www.amazon.com/dp/B09M6KFV9T",
+      "affiliateUrl": "https://www.amazon.com/dp/B09M6KFV9T?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/51FaXCWrBWL._AC_SL1200_.jpg",
+      "imageAlt": "Lectron Tesla to J1772 48A charging adapter",
       "dateAdded": "2026-10-27"
     },
     {
@@ -127,14 +141,16 @@
       "badgeStyle": "blue",
       "spec": "All-Weather Shield",
       "icon": "shield",
-      "summary": "Seals over your charging port with dual magnetic strips and a drawstring closure so freezing rain, slush, and snow never jam your outdoor plug. Essential for street-parked EVs charging overnight in winter weather.",
+      "summary": "Seals over your charging port with a magnetic waterproof cover so freezing rain, slush, and snow never jam your outdoor plug. Essential for street-parked EVs charging overnight in winter weather.",
       "features": [
         "Dual magnetic strips grip steel body panels tightly in high wind",
         "Waterproof fabric prevents frozen charge port doors and latches"
       ],
-      "asin": "B09THTQJ6R",
-      "amazonUrl": "https://www.amazon.com/dp/B09THTQJ6R",
-      "affiliateUrl": "",
+      "asin": "B0DFQCCP8V",
+      "amazonUrl": "https://www.amazon.com/dp/B0DFQCCP8V",
+      "affiliateUrl": "https://www.amazon.com/dp/B0DFQCCP8V?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/71MSk0B-D6L._AC_SL1500_.jpg",
+      "imageAlt": "Magnetic waterproof EV charge port cover",
       "dateAdded": "2026-10-27"
     },
     {
