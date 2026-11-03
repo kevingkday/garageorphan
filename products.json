@@ -152,6 +152,8 @@
       "asin": "B015TKUPIC",
       "amazonUrl": "https://www.amazon.com/dp/B015TKUPIC",
       "affiliateUrl": "",
+      "image": "https://m.media-amazon.com/images/I/71hJgp07X1L._AC_SL1500_.jpg",
+      "imageAlt": "NOCO Boost Plus GB40 12V lithium jump starter",
       "dateAdded": "2026-10-27"
     },
     {
@@ -168,7 +170,9 @@
       ],
       "asin": "B0DFH43NYN",
       "amazonUrl": "https://www.amazon.com/dp/B0DFH43NYN",
-      "affiliateUrl": "",
+      "affiliateUrl": "https://www.amazon.com/dp/B0DFH43NYN?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/51qFFHCGcFL._AC_SL1197_.jpg",
+      "imageAlt": "Lectron J1772 to Tesla NACS adapter",
       "dateAdded": "2026-11-01"
     },
     {
@@ -185,7 +189,9 @@
       ],
       "asin": "B0CR4B1GMZ",
       "amazonUrl": "https://www.amazon.com/dp/B0CR4B1GMZ",
-      "affiliateUrl": "",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CR4B1GMZ?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/71kJ+DqQ7vL._AC_SL1500_.jpg",
+      "imageAlt": "Xtremeauto waterproof EV charging cable storage bag",
       "dateAdded": "2026-11-01"
     }
   ]

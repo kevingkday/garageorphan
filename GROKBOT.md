@@ -44,6 +44,7 @@ Requirements:
 - When GrokBot adds new products to `products.json`, it sets `"affiliateUrl": ""` (empty string) and populates `"amazonUrl"` (plus `"asin"` when available).
 - `index.html` automatically uses `affiliateUrl` whenever you have added one, and falls back to `amazonUrl` (or an Amazon search link) until you paste in your `https://link.amazon/...` affiliate shortlink.
 - **Crucial rule for GrokBot:** Never delete or overwrite existing products' `"affiliateUrl"` values in `products.json`.
+- Optional `"image"` (a direct `http` or `https` product photo URL) and `"imageAlt"` (short photo description) render a photo in the card. The photo links to the same destination as the price button. Omit both fields when you do not have a real photo. Never invent an image URL. If `"image"` is missing or the photo fails to load, the card keeps the `"icon"` glyph. If `"imageAlt"` is omitted, the card uses `"title"`.
 
 ### Prompt to Give GrokBot (Amazon Product Additions)
 
@@ -77,9 +78,12 @@ Requirements:
      "asin": "B0XXXXXXXX (if known, otherwise empty string)",
      "amazonUrl": "https://www.amazon.com/dp/B0XXXXXXXX or https://www.amazon.com/s?k=Product+Search+Terms",
      "affiliateUrl": "",
+     "image": "(optional) https:// direct product photo URL — omit the key when unknown",
+     "imageAlt": "(optional) short description of the photo — omit the key when image is omitted",
      "dateAdded": "YYYY-MM-DD"
    }
 4. Leave `"affiliateUrl": ""` on newly added products so the site owner can easily paste in their Amazon Associate link.
+5. Omit `"image"` and `"imageAlt"` unless you have a real product photo URL. Do not leave placeholder image URLs.
 ```
 
 ---
