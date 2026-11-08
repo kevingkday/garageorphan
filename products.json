@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01",
+  "lastUpdated": "2026-11-08",
   "products": [
     {
       "id": "a2z-typhoon-pro-nacs-to-ccs-adapter",
@@ -209,6 +209,63 @@
       "image": "https://m.media-amazon.com/images/I/71kJ+DqQ7vL._AC_SL1500_.jpg",
       "imageAlt": "Xtremeauto waterproof EV charging cable storage bag",
       "dateAdded": "2026-11-01"
+    },
+    {
+      "id": "parkworld-nema-10-30-to-14-50-ev-adapter-cord",
+      "title": "Parkworld NEMA 10-30 to 14-50 EV Adapter Cord (10 ft)",
+      "badge": "🔌 Dryer Adapter",
+      "badgeStyle": "brand",
+      "spec": "10-30 to 14-50",
+      "icon": "cord",
+      "summary": "Lets a portable EV charger with a 14-50 plug run from an older 3-prong dryer outlet, the kind still common in apartment laundry rooms and shared townhome utility closets. It is a 30-amp cord, so the car's charge limit has to stay at or below 24 amps.",
+      "features": [
+        "10 ft outdoor 10-gauge cord from a NEMA 10-30 dryer plug to a 14-50 receptacle",
+        "Built for EV charging only, with a lighted 14-50 end"
+      ],
+      "asin": "B07K2H4N5X",
+      "amazonUrl": "https://www.amazon.com/dp/B07K2H4N5X",
+      "affiliateUrl": "https://www.amazon.com/dp/B07K2H4N5X?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/41CzkxecgbL._AC_.jpg",
+      "imageAlt": "Parkworld 10 ft NEMA 10-30 to 14-50 EV adapter cord",
+      "dateAdded": "2026-11-08"
+    },
+    {
+      "id": "lectron-ccs1-to-nacs-adapter-1000v",
+      "title": "Lectron CCS1 to NACS Adapter (500A / 1,000V)",
+      "badge": "⚡ CCS Fast Charge",
+      "badgeStyle": "purple",
+      "spec": "CCS1 to NACS (DC)",
+      "icon": "adapter",
+      "summary": "Lets a Tesla or other NACS-port EV plug into CCS1 fast chargers when the only open public stall is not NACS. Confirm the car lists CCS adapter support first; it is not compatible with Cybertruck.",
+      "features": [
+        "UL 2252 certified, rated up to 500A and 1,000V",
+        "Thermal shutoff and an IP67 housing for outdoor public fast chargers"
+      ],
+      "asin": "B0FPQQL6FP",
+      "amazonUrl": "https://www.amazon.com/dp/B0FPQQL6FP",
+      "affiliateUrl": "https://www.amazon.com/dp/B0FPQQL6FP?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/71K3gUXU1JL._AC_SL1500_.jpg",
+      "imageAlt": "Lectron CCS1 to NACS DC fast-charging adapter",
+      "dateAdded": "2026-11-08"
+    },
+    {
+      "id": "lenz-lockable-nema-14-50-outdoor-outlet-box",
+      "title": "LENZ Lockable NEMA 14-50 Outdoor Outlet Box",
+      "badge": "🔒 Padlock Outlet",
+      "badgeStyle": "rose",
+      "spec": "NEMA 3R / 50A",
+      "icon": "cover",
+      "summary": "A weatherproof, padlockable box for a 14-50 outlet on an exterior wall or in a shared apartment lot, so rain stays out and neighbors cannot unplug a portable charger. It is a permanent install, so renters and condo owners still need the building's permission and an electrician.",
+      "features": [
+        "NEMA 3R enclosure with a lockable cover over a 50A 14-50 receptacle",
+        "ETL listed to UL 498 for Level 2 EV charging outdoors"
+      ],
+      "asin": "B0CJTBWXQ7",
+      "amazonUrl": "https://www.amazon.com/dp/B0CJTBWXQ7",
+      "affiliateUrl": "https://www.amazon.com/dp/B0CJTBWXQ7?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/51-8jMegZXL._SL1500_.jpg",
+      "imageAlt": "LENZ lockable weatherproof NEMA 14-50 outdoor outlet box",
+      "dateAdded": "2026-11-08"
     }
   ]
 }
