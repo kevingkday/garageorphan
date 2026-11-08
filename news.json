@@ -1,53 +1,53 @@
 {
-  "lastUpdated": "2026-11-01",
+  "lastUpdated": "2026-11-08",
   "articles": [
     {
-      "title": "Rivian Adventure Network Adds 10 Sites, 112 Stalls: Q3 2026 Report",
-      "date": "2026-10-30",
+      "title": "EVgo opens its first Tesla Superchargers, with hundreds more planned",
+      "date": "2026-11-06",
+      "source": "Electrek",
+      "category": "Charging Networks",
+      "summary": "EVgo opened a 12-stall Supercharger in a Chicago grocery-store lot, with Magic Dock plugs so both NACS and CCS cars can charge without a personal adapter. It is the first of hundreds of stalls the company plans to add, which gives drivers who cannot charge at home another fast-charging option that shows up in Tesla navigation.",
+      "url": "https://electrek.co/2026/11/06/evgo-opens-its-first-tesla-superchargers-with-hundreds-more-planned/"
+    },
+    {
+      "title": "Major EV charging rollout underway at 254-apartment building in Canberra",
+      "date": "2026-11-04",
+      "source": "The Driven",
+      "category": "Apartment Charging",
+      "summary": "Nox Energy is fitting a 254-apartment building in Canberra with shared charging infrastructure, and more than 90 residents have already paid to add a smart socket at their own parking space. The install is part of an ARENA-backed program that aims to put nearly 2,000 of those sockets in apartment buildings, so residents can plug in without a building-wide electrical rebuild.",
+      "url": "https://thedriven.io/2026/11/04/major-ev-charging-rollout-underway-at-254-apartment-building-in-canberra/"
+    },
+    {
+      "title": "Pennsylvania is way ahead on NEVI charging, with another $37 million for public ports",
+      "date": "2026-11-03",
+      "source": "Electrek",
+      "category": "Curbside Charging",
+      "summary": "Pennsylvania is putting $37 million in federal NEVI funding toward 515 new public charging ports in the Philadelphia region, including 157 on-street Level 2 ports from It's Electric and 62 more curbside ports from Voltpost. Those are the plugs that matter for drivers without a driveway, though construction is still ahead and they are not open yet.",
+      "url": "https://electrek.co/2026/11/03/pennsylvania-is-way-ahead-on-nevi-charging-now-comes-another-37m/"
+    },
+    {
+      "title": "State of Walmart EV Charging: November 2026 Update",
+      "date": "2026-11-03",
       "source": "EVChargingStations.com",
       "category": "Charging Networks",
-      "summary": "Rivian's fast-charging network grew to 165 sites and 1,185 stalls in Q3, and nearly 98% of its sites are now open to non-Rivian EVs, with NACS plugs at about 59% of locations. For drivers who rely on public fast charging, that's another large, highly rated network they can use without owning a Rivian.",
-      "url": "https://evchargingstations.com/chargingnews/rivian-adventure-network-q3-2026/"
+      "summary": "Walmart's fast-charging network reached 132 sites and 1,108 stalls by the end of October, and every 400 kW charger has both a CCS1 plug and a NACS plug. Average pricing is about $0.47 per kWh on peak and $0.29 off peak, a useful benchmark for drivers who have to fast-charge because they cannot plug in at home.",
+      "url": "https://evchargingstations.com/chargingnews/walmart-ev-charging-november-2026/"
     },
     {
-      "title": "ARENA backs Alchemy Charge with $2 million to unlock home EV charging for apartment residents",
-      "date": "2026-10-28",
-      "source": "Alchemy Charge",
-      "category": "Apartment Charging",
-      "summary": "Australia's renewable energy agency is co-funding a $7.4 million national Strata Assist program to tackle the approval, installation, and cost hurdles that stall apartment charging projects. Its digital platform, due February 2027, gives residents, landlords, and strata managers one shared path to quotes and approvals.",
-      "url": "https://www.alchemycharge.com.au/documents/strata-assist-media-release-28-october-2026.pdf"
-    },
-    {
-      "title": "Tesla Supercharger Prices Are Up 15% in the Last Year",
-      "date": "2026-10-23",
-      "source": "Not a Tesla App",
-      "category": "Charging Networks",
-      "summary": "Non-member Supercharging in the US now averages about $0.569/kWh, up 15% in a year, while members pay Tesla-owner rates averaging about $0.396/kWh. Drivers without home charging who Supercharge often should check whether a membership pays for itself.",
-      "url": "https://www.notateslaapp.com/news/4885/tesla-supercharger-prices-are-up-15-in-the-last-year"
-    },
-    {
-      "title": "Making regional EV charging easier with pole-mounted chargers",
-      "date": "2026-10-22",
-      "source": "Wagga Wagga City Council",
+      "title": "Thousands of public EV chargers are coming, but they could be unusable",
+      "date": "2026-11-02",
+      "source": "ABC News",
       "category": "Curbside Charging",
-      "summary": "Five EV chargers have been mounted on existing utility poles across Wagga Wagga's CBD in an ARENA-funded kerbside charging trial with EVX and Essential Energy. Reusing poles already on the street is a fast, low-cost way to give drivers without driveways a place to plug in.",
-      "url": "https://news.wagga.nsw.gov.au/news-articles/2026/october-2026/making-regional-ev-charging-easier-with-pole-mounted-chargers"
+      "summary": "Australia's Accelerating EV Charging Program is set to put about 14,000 chargers on power poles in dense neighborhoods where residents lack off-street parking, with the first installs expected from March 2027. Installers are not required to get EV-only parking, and chargers without a dedicated bay are often blocked by gas cars, so a pole on your street is not the same as a guaranteed overnight spot.",
+      "url": "https://www.abc.net.au/news/science/2026-11-02/kerbside-electric-vehicle-ev-charger-rollout/107301990"
     },
     {
-      "title": "Expanding electric vehicle charging access for tenants and leaseholders",
-      "date": "2026-10-21",
-      "source": "GOV.UK",
+      "title": "NSW apartment owners get a right to install an EV charger, but not yet",
+      "date": "2026-10-28",
+      "source": "Volts & Bots",
       "category": "Right-to-Charge Laws",
-      "summary": "The UK government opened a consultation on an 'ability to charge' that would require landlords and freeholders to give tenants and leaseholders timely permission to install charge points at their off-street spaces. It's a step toward right-to-charge protections for renters and flat owners, alongside existing grants of up to £500.",
-      "url": "https://www.gov.uk/government/consultations/expanding-electric-vehicle-charging-access-for-tenants-and-leaseholders/expanding-electric-vehicle-charging-access-for-tenants-and-leaseholders"
-    },
-    {
-      "title": "A parking giant with 5,700 sites is taking on apartment EV charging",
-      "date": "2026-10-20",
-      "source": "Electrek",
-      "category": "Apartment Charging",
-      "summary": "LAZ Parking and EverCharge launched a multifamily charging service that shares a building's existing power across cars, supporting up to five times as many ports without a costly electrical upgrade. That removes one of the biggest reasons apartment and condo buildings say no to resident chargers.",
-      "url": "https://electrek.co/2026/10/20/a-parking-giant-with-5700-sites-is-taking-on-apartment-ev-charging/"
+      "summary": "NSW has passed a law that will stop a strata committee from unreasonably blocking an owner who wants an EV charger on their own apartment lot, including when the work touches common property. The charging rules are signed into law but not in force until an official start date is set, and a renter still needs the apartment owner to make the request.",
+      "url": "https://voltsandbots.com/charging/nsw-strata-right-to-charge-ev-chargers"
     }
   ]
 }
