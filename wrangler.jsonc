@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "garageorphan",
+  "compatibility_date": "2026-03-30",
+  "main": "worker.js",
+  "routes": [
+    {
+      "pattern": "garageorphan.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.garageorphan.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  },
+  "send_email": [
+    {
+      "name": "SEND_EMAIL",
+      "destination_address": "kevingkday@gmail.com"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
