@@ -1044,9 +1044,9 @@
   <!-- SCRIPT LOGIC -->
   <script>
     // ==========================================
-    // CONFIGURATION: Set your Webhook URL here
+    // CONFIGURATION: Email / Webhook Endpoint
     // ==========================================
-    const WEBHOOK_URL = "YOUR_WEBHOOK_URL_HERE";
+    const WEBHOOK_URL = "https://formsubmit.co/ajax/kevingkday@gmail.com";
 
     // 1. Mobile Menu Toggle
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
@@ -1154,25 +1154,30 @@
       btnSpinner.classList.remove('hidden');
 
       const payload = {
-        fullName,
+        _subject: `[GarageOrphan.com] HOA Proposal Kit Request — ${fullName} (${location})`,
+        _template: 'table',
+        _captcha: 'false',
+        _replyto: email,
+        name: fullName,
         email,
         residentType,
         location,
         buildingSize,
-        source: 'garageorphan.com',
+        source: 'garageorphan.com (HOA Request Form)',
         timestamp: new Date().toISOString()
       };
 
       try {
-        if (WEBHOOK_URL && WEBHOOK_URL !== "YOUR_WEBHOOK_URL_HERE") {
-          await fetch(WEBHOOK_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload)
-          });
-        } else {
-          console.info("Simulating lead capture submission:", payload);
-          await new Promise(resolve => setTimeout(resolve, 800));
+        const res = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+        if (!res.ok) {
+          throw new Error(`Email endpoint returned status ${res.status}`);
         }
 
         successEmailDisplay.textContent = email;
@@ -1229,24 +1234,29 @@
       const offer = document.getElementById('acqOffer').value;
 
       const acqPayload = {
+        _subject: `[GarageOrphan.com] Domain Acquisition Inquiry — ${name}`,
+        _template: 'table',
+        _captcha: 'false',
+        _replyto: email,
         name,
         email,
-        offer,
+        offer: offer || 'Not specified',
         domain: 'garageorphan.com',
         type: 'domain_acquisition_inquiry',
         timestamp: new Date().toISOString()
       };
 
       try {
-        if (WEBHOOK_URL && WEBHOOK_URL !== "YOUR_WEBHOOK_URL_HERE") {
-          await fetch(WEBHOOK_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(acqPayload)
-          });
-        } else {
-          console.info("Simulating domain inquiry submission:", acqPayload);
-          await new Promise(r => setTimeout(r, 600));
+        const res = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(acqPayload)
+        });
+        if (!res.ok) {
+          throw new Error(`Email endpoint returned status ${res.status}`);
         }
         acqSuccessMsg?.classList.remove('hidden');
         setTimeout(() => {
