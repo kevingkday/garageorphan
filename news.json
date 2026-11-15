@@ -1,53 +1,53 @@
 {
-  "lastUpdated": "2026-11-08",
+  "lastUpdated": "2026-11-15",
   "articles": [
     {
-      "title": "EVgo opens its first Tesla Superchargers, with hundreds more planned",
-      "date": "2026-11-06",
-      "source": "Electrek",
-      "category": "Charging Networks",
-      "summary": "EVgo opened a 12-stall Supercharger in a Chicago grocery-store lot, with Magic Dock plugs so both NACS and CCS cars can charge without a personal adapter. It is the first of hundreds of stalls the company plans to add, which gives drivers who cannot charge at home another fast-charging option that shows up in Tesla navigation.",
-      "url": "https://electrek.co/2026/11/06/evgo-opens-its-first-tesla-superchargers-with-hundreds-more-planned/"
-    },
-    {
-      "title": "Major EV charging rollout underway at 254-apartment building in Canberra",
-      "date": "2026-11-04",
-      "source": "The Driven",
-      "category": "Apartment Charging",
-      "summary": "Nox Energy is fitting a 254-apartment building in Canberra with shared charging infrastructure, and more than 90 residents have already paid to add a smart socket at their own parking space. The install is part of an ARENA-backed program that aims to put nearly 2,000 of those sockets in apartment buildings, so residents can plug in without a building-wide electrical rebuild.",
-      "url": "https://thedriven.io/2026/11/04/major-ev-charging-rollout-underway-at-254-apartment-building-in-canberra/"
-    },
-    {
-      "title": "Pennsylvania is way ahead on NEVI charging, with another $37 million for public ports",
-      "date": "2026-11-03",
-      "source": "Electrek",
-      "category": "Curbside Charging",
-      "summary": "Pennsylvania is putting $37 million in federal NEVI funding toward 515 new public charging ports in the Philadelphia region, including 157 on-street Level 2 ports from It's Electric and 62 more curbside ports from Voltpost. Those are the plugs that matter for drivers without a driveway, though construction is still ahead and they are not open yet.",
-      "url": "https://electrek.co/2026/11/03/pennsylvania-is-way-ahead-on-nevi-charging-now-comes-another-37m/"
-    },
-    {
-      "title": "State of Walmart EV Charging: November 2026 Update",
-      "date": "2026-11-03",
+      "title": "Tesla EVs get a plug-and-charge option at IONNA through the Presto app",
+      "date": "2026-11-14",
       "source": "EVChargingStations.com",
       "category": "Charging Networks",
-      "summary": "Walmart's fast-charging network reached 132 sites and 1,108 stalls by the end of October, and every 400 kW charger has both a CCS1 plug and a NACS plug. Average pricing is about $0.47 per kWh on peak and $0.29 off peak, a useful benchmark for drivers who have to fast-charge because they cannot plug in at home.",
-      "url": "https://evchargingstations.com/chargingnews/walmart-ev-charging-november-2026/"
+      "summary": "IONNA and Presto Charging now let a compatible Tesla start a session at IONNA fast chargers by plugging in, after a one-time setup in the Presto app. That is useful for drivers who cannot charge at home, though some cars from before 2022 may not work, and the first Autocharge session is the one Presto says will be free.",
+      "url": "https://evchargingstations.com/chargingnews/tesla-autocharge-ionna/"
     },
     {
-      "title": "Thousands of public EV chargers are coming, but they could be unusable",
-      "date": "2026-11-02",
-      "source": "ABC News",
+      "title": "Latest Canadian budget packs funding for 55,000 new EV chargers",
+      "date": "2026-11-12",
+      "source": "Electrek",
+      "category": "Apartment Charging",
+      "summary": "Canada's proposed budget renews the Zero-Emission Vehicle Infrastructure Program with about $587 million CAD, inside a larger plan for more than 55,000 chargers. Charging-industry groups say the money has to reach condo and apartment buildings, not only highway fast chargers, because those residents still have the hardest time plugging in where they park.",
+      "url": "https://electrek.co/2026/11/12/latest-canadian-budget-packs-funding-for-55000-new-ev-chargers/"
+    },
+    {
+      "title": "Lamppost EV chargers proposed for 26 Leigh and Milton streets",
+      "date": "2026-11-12",
+      "source": "Southend Today",
       "category": "Curbside Charging",
-      "summary": "Australia's Accelerating EV Charging Program is set to put about 14,000 chargers on power poles in dense neighborhoods where residents lack off-street parking, with the first installs expected from March 2027. Installers are not required to get EV-only parking, and chargers without a dedicated bay are often blocked by gas cars, so a pole on your street is not the same as a guaranteed overnight spot.",
-      "url": "https://www.abc.net.au/news/science/2026-11-02/kerbside-electric-vehicle-ev-charger-rollout/107301990"
+      "summary": "Southend is asking residents until November 18 about 26 lamppost chargers in Leigh and Milton, most of them next to a bay that only an electric car could use while it is charging. The rollout is aimed at drivers with no off-street parking, and a gas car would lose that space for an 18-month trial.",
+      "url": "https://southendtoday.co.uk/leigh-milton-ev-charger-consultation/"
     },
     {
-      "title": "NSW apartment owners get a right to install an EV charger, but not yet",
-      "date": "2026-10-28",
-      "source": "Volts & Bots",
+      "title": "Mercedes' EV charging network hit 100 locations after 3 years in the U.S.",
+      "date": "2026-11-10",
+      "source": "InsideEVs",
+      "category": "Charging Networks",
+      "summary": "Mercedes-Benz High-Power Charging now has 100 sites and nearly 1,000 ports in the U.S. and British Columbia, and only about 7 percent of locations are still CCS-only. Sessions that start on the first try are above 90 percent, and posted prices run about $0.35 to $0.60 per kWh, which is the rate drivers pay when they cannot charge at home.",
+      "url": "https://insideevs.com/news/814999/mercedes-benz-high-powered-charging-us-three-years-100-stations/"
+    },
+    {
+      "title": "EV chargers in flats: the right to plug, country by country",
+      "date": "2026-11-09",
+      "source": "Voltaback",
       "category": "Right-to-Charge Laws",
-      "summary": "NSW has passed a law that will stop a strata committee from unreasonably blocking an owner who wants an EV charger on their own apartment lot, including when the work touches common property. The charging rules are signed into law but not in force until an official start date is set, and a renter still needs the apartment owner to make the request.",
-      "url": "https://voltsandbots.com/charging/nsw-strata-right-to-charge-ev-chargers"
+      "summary": "In much of the EU, an apartment owner or tenant can now install a charger on their own parking space with notice rather than a vote of the other owners, after member states were due to transpose the buildings directive by May 2026. England still has no such right, so a leaseholder needs the freeholder's consent, and a consultation on an \"ability to charge\" stays open until December 16.",
+      "url": "https://www.voltaback.com/en/blog/ev-charger-flats-apartments/"
+    },
+    {
+      "title": "ESB increasing its public EV charging rates again",
+      "date": "2026-11-04",
+      "source": "RTÉ",
+      "category": "Charging Networks",
+      "summary": "Ireland's largest public charging network raised prices again on November 2, citing wholesale electricity costs, the second increase this year. Pay-as-you-go app rates are now 70 cents per kWh on standard chargers and 83 cents on fast chargers, so drivers who cannot charge at home pay the full increase unless they switch to an off-peak subscription.",
+      "url": "https://www.rte.ie/news/business/2026/1104/1597945-esb-public-charger-prices/"
     }
   ]
 }

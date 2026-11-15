@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08",
+  "lastUpdated": "2026-11-15",
   "products": [
     {
       "id": "a2z-typhoon-pro-nacs-to-ccs-adapter",
@@ -266,6 +266,63 @@
       "image": "https://m.media-amazon.com/images/I/51-8jMegZXL._SL1500_.jpg",
       "imageAlt": "LENZ lockable weatherproof NEMA 14-50 outdoor outlet box",
       "dateAdded": "2026-11-08"
+    },
+    {
+      "id": "parkworld-nema-14-30-to-14-50-ev-adapter-cord",
+      "title": "Parkworld NEMA 14-30 to 14-50 EV Adapter Cord (10 ft)",
+      "badge": "🔌 4-Prong Dryer",
+      "badgeStyle": "brand",
+      "spec": "14-30 to 14-50",
+      "icon": "cord",
+      "summary": "Lets a portable EV charger with a 14-50 plug run from a modern 4-prong dryer outlet, the kind still common in apartment laundry rooms. It is a 30-amp cord, so the car's charge limit has to stay at or below 24 amps.",
+      "features": [
+        "10 ft 10-gauge cord from a NEMA 14-30 dryer plug to a lighted 14-50 receptacle",
+        "Rated for a 30-amp dryer circuit, so it is not a substitute for a 50-amp outlet"
+      ],
+      "asin": "B07K2GG2RP",
+      "amazonUrl": "https://www.amazon.com/dp/B07K2GG2RP",
+      "affiliateUrl": "https://www.amazon.com/dp/B07K2GG2RP?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/71Ia9ZO1O+L._AC_SL1500_.jpg",
+      "imageAlt": "Parkworld 10 ft NEMA 14-30 to 14-50 EV adapter cord",
+      "dateAdded": "2026-11-15"
+    },
+    {
+      "id": "lectron-j1772-extension-cable-20ft",
+      "title": "Lectron 20 ft J1772 Extension Cable (40A)",
+      "badge": "📏 Extra Reach",
+      "badgeStyle": "emerald",
+      "spec": "40A / IP66",
+      "icon": "cord",
+      "summary": "Adds 20 feet to a J1772 Level 1 or Level 2 cord when the outlet and the charge port do not line up, which is common for a street-parked or shared-lot car. The housing is rated IP66, so the connection can stay outside in rain and slush.",
+      "features": [
+        "Rated up to 40A for Level 1 and Level 2 J1772 chargers",
+        "IP66 waterproof connectors with silver-plated contacts"
+      ],
+      "asin": "B0821FCF7P",
+      "amazonUrl": "https://www.amazon.com/dp/B0821FCF7P",
+      "affiliateUrl": "https://www.amazon.com/dp/B0821FCF7P?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/618YB4Q+UsL._AC_SL1500_.jpg",
+      "imageAlt": "Lectron 20 ft J1772 EV charging extension cable",
+      "dateAdded": "2026-11-15"
+    },
+    {
+      "id": "ecotome-j1772-silicone-plug-cover",
+      "title": "Ecotome Silicone J1772 Charger Plug Cover",
+      "badge": "❄️ Winter Plug Cap",
+      "badgeStyle": "blue",
+      "spec": "J1772 / Silicone",
+      "icon": "cover",
+      "summary": "Caps a J1772 charging handle that lives on an outdoor cord or in a trunk, so rain, slush, and road grit stay out of the pins. It covers the plug, not the car's charge-port door, and it does not fit a NACS handle.",
+      "features": [
+        "Silicone cap with a zip-tie tether so it stays on the cable",
+        "Blocks moisture and debris when the charger is stored outside"
+      ],
+      "asin": "B0F7G2T61J",
+      "amazonUrl": "https://www.amazon.com/dp/B0F7G2T61J",
+      "affiliateUrl": "https://www.amazon.com/dp/B0F7G2T61J?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/71Ab7tIXJWL._AC_SL1500_.jpg",
+      "imageAlt": "Ecotome silicone cover for a J1772 EV charger plug",
+      "dateAdded": "2026-11-15"
     }
   ]
 }
