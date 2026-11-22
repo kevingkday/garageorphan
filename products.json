@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15",
+  "lastUpdated": "2026-11-22",
   "products": [
     {
       "id": "a2z-typhoon-pro-nacs-to-ccs-adapter",
@@ -323,6 +323,44 @@
       "image": "https://m.media-amazon.com/images/I/71Ab7tIXJWL._AC_SL1500_.jpg",
       "imageAlt": "Ecotome silicone cover for a J1772 EV charger plug",
       "dateAdded": "2026-11-15"
+    },
+    {
+      "id": "noco-genius2-12v-battery-maintainer",
+      "title": "NOCO GENIUS2 2A 6V/12V Battery Maintainer",
+      "badge": "❄️ Cold 12V Care",
+      "badgeStyle": "slate",
+      "spec": "2A Maintainer",
+      "icon": "battery",
+      "summary": "A street-parked or shared-lot EV can still be stranded if its small 12-volt battery drains in a cold snap, even when the big pack is full. This maintainer plugs into a regular wall outlet and trickle-charges that 12-volt battery, and it adjusts the charge for the outside temperature so a long cold sit does not undercharge it.",
+      "features": [
+        "Temperature sensor adjusts the charge in cold weather",
+        "Safe to leave connected, with spark-proof reverse-polarity clamps"
+      ],
+      "asin": "B07W6B987F",
+      "amazonUrl": "https://www.amazon.com/dp/B07W6B987F",
+      "affiliateUrl": "https://www.amazon.com/dp/B07W6B987F?tag=garageorphan-20",
+      "image": "https://m.media-amazon.com/images/I/41ZnnO9ICuL._AC_SL1500_.jpg",
+      "imageAlt": "NOCO GENIUS2 2-amp smart battery maintainer with clamps",
+      "dateAdded": "2026-11-22"
+    },
+    {
+      "id": "nexoroot-nacs-silicone-charger-plug-cover",
+      "title": "Nexoroot Silicone NACS Charger Plug Cover",
+      "badge": "❄️ Winter Plug Cap",
+      "badgeStyle": "blue",
+      "spec": "NACS / Silicone",
+      "icon": "cover",
+      "summary": "Caps a NACS or Tesla charging handle that lives on an outdoor cord or in a trunk, so rain, slush, and road grit stay out of the pins. Choose the Tesla Cover size on the listing. It covers the plug, not the car's charge-port door.",
+      "features": [
+        "Soft silicone cap for a NACS (J3400) handle; select the Tesla Cover size",
+        "A loop and included zip tie keep the cap on the cable"
+      ],
+      "asin": "B0D4LTR1TG",
+      "amazonUrl": "https://www.amazon.com/dp/B0D4LTR1TG",
+      "affiliateUrl": "https://www.amazon.com/dp/B0D4LTR1TG?tag=garageorphan-20",
+      "image": "",
+      "imageAlt": "Silicone cap for a NACS EV charger plug",
+      "dateAdded": "2026-11-22"
     }
   ]
 }

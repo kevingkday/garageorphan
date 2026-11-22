@@ -1,53 +1,53 @@
 {
-  "lastUpdated": "2026-11-15",
+  "lastUpdated": "2026-11-22",
   "articles": [
     {
-      "title": "Tesla EVs get a plug-and-charge option at IONNA through the Presto app",
-      "date": "2026-11-14",
-      "source": "EVChargingStations.com",
-      "category": "Charging Networks",
-      "summary": "IONNA and Presto Charging now let a compatible Tesla start a session at IONNA fast chargers by plugging in, after a one-time setup in the Presto app. That is useful for drivers who cannot charge at home, though some cars from before 2022 may not work, and the first Autocharge session is the one Presto says will be free.",
-      "url": "https://evchargingstations.com/chargingnews/tesla-autocharge-ionna/"
-    },
-    {
-      "title": "Latest Canadian budget packs funding for 55,000 new EV chargers",
-      "date": "2026-11-12",
-      "source": "Electrek",
-      "category": "Apartment Charging",
-      "summary": "Canada's proposed budget renews the Zero-Emission Vehicle Infrastructure Program with about $587 million CAD, inside a larger plan for more than 55,000 chargers. Charging-industry groups say the money has to reach condo and apartment buildings, not only highway fast chargers, because those residents still have the hardest time plugging in where they park.",
-      "url": "https://electrek.co/2026/11/12/latest-canadian-budget-packs-funding-for-55000-new-ev-chargers/"
-    },
-    {
-      "title": "Lamppost EV chargers proposed for 26 Leigh and Milton streets",
-      "date": "2026-11-12",
-      "source": "Southend Today",
+      "title": "Essential Energy gets green light to trial 300 streetlights with built-in EV chargers",
+      "date": "2026-11-20",
+      "source": "The Driven",
       "category": "Curbside Charging",
-      "summary": "Southend is asking residents until November 18 about 26 lamppost chargers in Leigh and Milton, most of them next to a bay that only an electric car could use while it is charging. The rollout is aimed at drivers with no off-street parking, and a gas car would lose that space for an 18-month trial.",
-      "url": "https://southendtoday.co.uk/leigh-milton-ev-charger-consultation/"
+      "summary": "Essential Energy, the regional New South Wales power network, has approval to trial 300 streetlights with the charger built into the pole, aimed at towns where many drivers have nowhere off the street to plug in. The trial is paid for by the network and the Australian Renewable Energy Agency rather than household power bills, but it does not start until 2028, and the chargers have to be sold to a private operator or removed when the waiver ends.",
+      "url": "https://thedriven.io/2026/11/20/network-gets-green-light-to-roll-out-300-streetlights-that-double-as-kerbside-ev-chargers/"
     },
     {
-      "title": "Mercedes' EV charging network hit 100 locations after 3 years in the U.S.",
-      "date": "2026-11-10",
+      "title": "Brisbane apartment owners can now install EV chargers after Origin retrofit",
+      "date": "2026-11-19",
+      "source": "The Driven",
+      "category": "Apartment Charging",
+      "summary": "Owners at the Urban Edge apartments in Kelvin Grove, Brisbane, can now add a charger in their own parking bay after Origin installed shared cabling and load management, with ARENA covering half of the $700,000 retrofit. The body corporate already approved the work, and each owner pays about $5,000 for their bay, which is the kind of building-wide upgrade apartment and condo residents usually cannot do on their own.",
+      "url": "https://thedriven.io/2026/11/19/brisbane-apartment-owners-can-now-install-ev-chargers-after-origin-retrofit/"
+    },
+    {
+      "title": "In-kerb EV charge points to be trialled in East Lothian",
+      "date": "2026-11-19",
+      "source": "EV Infrastructure News",
+      "category": "Curbside Charging",
+      "summary": "Three chargers built flush into the kerb are now live in East Lothian, Scotland, including one on a residential street, in a trial aimed at the nearly one in three UK households with no driveway. Drivers start a session with the same apps as the council's other chargers, and the partners are measuring whether a flat kerb unit can serve street-parked cars without cluttering the sidewalk.",
+      "url": "https://www.evinfrastructurenews.com/public-charging/in-kerb-ev-charge-points-to-be-trialled-in-east-lothian"
+    },
+    {
+      "title": "Home charger sharing can help bridge the UK's EV divide",
+      "date": "2026-11-19",
+      "source": "Zemo Partnership",
+      "category": "Driveway Sharing",
+      "summary": "Zemo Partnership is urging people with a home charger to share it with neighbours who have no driveway, so those drivers can plug in nearby, often for less than a public charger, while the host earns from a plug that otherwise sits idle. Hosts set the price and accept each booking, and groups including the AA and EVA England say the unused private chargers could help the millions of UK households that cannot install their own.",
+      "url": "https://www.zemo.org.uk/news-events/news,home-charger-sharing-can-help-bridge-the-uks-ev-divide_4877.htm"
+    },
+    {
+      "title": "Chevy, GMC, and Cadillac EV owners can now plug and charge at Electrify America",
+      "date": "2026-11-17",
       "source": "InsideEVs",
       "category": "Charging Networks",
-      "summary": "Mercedes-Benz High-Power Charging now has 100 sites and nearly 1,000 ports in the U.S. and British Columbia, and only about 7 percent of locations are still CCS-only. Sessions that start on the first try are above 90 percent, and posted prices run about $0.35 to $0.60 per kWh, which is the rate drivers pay when they cannot charge at home.",
-      "url": "https://insideevs.com/news/814999/mercedes-benz-high-powered-charging-us-three-years-100-stations/"
+      "summary": "Chevy, GMC, and Cadillac drivers enrolled in GM Energy Pass can now start a session at Electrify America by plugging in, with power flowing in about 45 seconds and no separate app at the stall. It is live on GM cars with a CCS port, and GM says NACS-port cars get the same Electrify America feature in early 2027, which matters for apartment and street-parked drivers who do most of their charging in public.",
+      "url": "https://insideevs.com/news/815783/plug-charge-electrify-america-gm/"
     },
     {
-      "title": "EV chargers in flats: the right to plug, country by country",
-      "date": "2026-11-09",
-      "source": "Voltaback",
-      "category": "Right-to-Charge Laws",
-      "summary": "In much of the EU, an apartment owner or tenant can now install a charger on their own parking space with notice rather than a vote of the other owners, after member states were due to transpose the buildings directive by May 2026. England still has no such right, so a leaseholder needs the freeholder's consent, and a consultation on an \"ability to charge\" stays open until December 16.",
-      "url": "https://www.voltaback.com/en/blog/ev-charger-flats-apartments/"
-    },
-    {
-      "title": "ESB increasing its public EV charging rates again",
-      "date": "2026-11-04",
-      "source": "RTÉ",
-      "category": "Charging Networks",
-      "summary": "Ireland's largest public charging network raised prices again on November 2, citing wholesale electricity costs, the second increase this year. Pay-as-you-go app rates are now 70 cents per kWh on standard chargers and 83 cents on fast chargers, so drivers who cannot charge at home pay the full increase unless they switch to an off-peak subscription.",
-      "url": "https://www.rte.ie/news/business/2026/1104/1597945-esb-public-charger-prices/"
+      "title": "Ku-ring-gai Council installs 21 kerbside EV charging ports",
+      "date": "2026-11-12",
+      "source": "The Driven",
+      "category": "Curbside Charging",
+      "summary": "Ku-ring-gai Council has switched on 21 new kerbside charging ports across Sydney's north, paid for by a NSW government grant and aimed at residents who have no garage or driveway. Drivers need to bring their own Type 2 cable, and the mayor said the point is to put chargers on the street where people already park so an EV is practical without off-street parking.",
+      "url": "https://thedriven.io/2026/11/12/ku-ring-gai-council-installs-21-kerbside-ev-charging-ports/"
     }
   ]
 }
